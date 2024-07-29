@@ -37,6 +37,9 @@ module.exports = {
           950: "#262626",
         },
       },
+      animation: {
+        bounce: "bounce 3s infinite",
+      },
     },
   },
   plugins: [],
