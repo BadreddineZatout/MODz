@@ -2,6 +2,7 @@
   <div>
     <HeroSection />
     <PhilosophySection />
+    <AboutUs />
   </div>
 </template>
 
