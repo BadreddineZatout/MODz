@@ -3,6 +3,7 @@
     <HeroSection />
     <PhilosophySection />
     <AboutUs />
+    <Services />
   </div>
 </template>
 
