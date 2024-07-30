@@ -4,7 +4,7 @@
       class="w-1/2 flex items-end bg-secondary-950 font-bold text-6xl h-[572px] text-secondary-500"
     >
       <div class="absolute top-20 left-20 w-fit space-y-10">
-        <h1 class="text-primary-500">Empowering</h1>
+        <h1 class="text-primary-700">Empowering</h1>
         <h1 class="indent-24">Your Construction Projects</h1>
         <h1 class="indent-60">with Trusted Professionals</h1>
       </div>
