@@ -4,6 +4,7 @@
     <PhilosophySection />
     <AboutUs />
     <Services />
+    <Contact />
   </div>
 </template>
 
