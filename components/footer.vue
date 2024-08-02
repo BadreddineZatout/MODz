@@ -1,12 +1,12 @@
 <template>
   <div id="contact" class="bg-secondary-950 px-14 pb-2 pt-5 text-white">
     <div class="flex flex-col justify-around sm:flex-row">
-      <div class="w-full sm:w-1/6">
+      <div class="w-1/5">
         <NuxtLink to="/">
           <img src="/logo.png" alt="logo" />
         </NuxtLink>
       </div>
-      <div class="w-full flex-col sm:w-2/6">
+      <div class="w-full flex-col sm:w-2/6 mt-10">
         <h1 class="text-3xl font-bold">MODz</h1>
         <div class="mb-2 mt-6 flex items-center">
           <svg
@@ -48,8 +48,9 @@
         </div>
       </div>
       <div
-        class="flex flex-col w-full items-start justify-start gap-3 font-semibold text-white sm:w-1/2"
+        class="flex flex-col w-full items-start justify-start gap-3 font-semibold text-white sm:w-1/2 mt-10"
       >
+        <h1 class="text-3xl font-bold">Menu</h1>
         <NuxtLink
           class="hidden hover:text-primary-600 sm:block"
           to="#philosophy"
@@ -67,6 +68,34 @@
         <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#contact"
           >Mobile App</NuxtLink
         >
+      </div>
+      <div class="mt-10">
+        <h1 class="text-3xl font-bold">Download Our App</h1>
+        <p class="mt-5 w-2/3">
+          Experience the convenience of Modz today. Download our app and connect
+          with trusted construction professionals in just a few taps.
+        </p>
+        <div
+          class="text-white text-xl font-bold flex items-center gap-1 mt-5 hover:text-primary-600"
+        >
+          <NuxtLink class="" to="#">Get The App</NuxtLink>
+          <svg
+            class="w-5"
+            data-slot="icon"
+            aria-hidden="true"
+            fill="none"
+            stroke-width="3.0"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </div>
       </div>
     </div>
     <div class="text-center text-secondary-400 mt-12">
