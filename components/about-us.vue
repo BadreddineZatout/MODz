@@ -1,6 +1,6 @@
 <template>
   <div id="about-us" class="my-20 px-20">
-    <h1 class="text-5xl font-bold text-primary-700">About Us</h1>
+    <h1 class="text-5xl font-bold text-[#1D6E5C]">About Us</h1>
     <div class="flex justify-around items-center mt-10 px-20">
       <div class="w-2/5">
         <div class="h-[267px] shadow-sm overflow-hidden">

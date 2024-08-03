@@ -4,18 +4,18 @@
       class="w-1/2 flex items-end bg-secondary-950 font-bold text-6xl h-[572px] text-secondary-500"
     >
       <div class="absolute top-20 left-20 w-fit space-y-10">
-        <h1 class="text-primary-700">Empowering</h1>
+        <h1 class="text-[#1D6E5C]">Empowering</h1>
         <h1 class="indent-24">Your Construction Projects</h1>
         <h1 class="indent-60">with Trusted Professionals</h1>
       </div>
       <div
-        class="w-[500px] h-[500px] border-4 border-primary-400 rounded-full absolute -bottom-80 -left-40"
+        class="w-[500px] h-[500px] border-4 border-[#1D6E5C] rounded-full absolute -bottom-80 -left-40"
       ></div>
       <div
         class="text-xl text-white font-semibold flex items-center gap-5 pl-10 pb-5 animate-bounce"
       >
         <svg
-          class="w-10 text-primary-500"
+          class="w-10 text-[#1D6E5C]"
           data-slot="icon"
           aria-hidden="true"
           fill="none"

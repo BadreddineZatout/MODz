@@ -1,6 +1,6 @@
 <template>
   <div id="contact" class="my-20 px-20">
-    <h1 class="text-5xl font-bold text-primary-700">Contact Us</h1>
+    <h1 class="text-5xl font-bold text-[#1D6E5C]">Contact Us</h1>
     <div class="flex justify-between items-center mt-10 px-20">
       <div class="w-2/3 rounded-xl overflow-hidden">
         <img src="/contact-us.png" alt="" />
@@ -24,13 +24,14 @@
           </UFormGroup>
           <UFormGroup label="message" name="message">
             <UTextarea
-              color="primary"
               v-model="conatctForm.message"
               placeholder="Enter your message..."
             />
           </UFormGroup>
 
-          <UButton color="primary" type="submit"> Submit </UButton>
+          <UButton class="bg-[#1D6E5C] hover:bg-primary-700" type="submit">
+            Submit
+          </UButton>
         </UForm>
       </div>
     </div>
@@ -56,10 +57,10 @@ const conatctForm = reactive({
   message: "",
 });
 
-const toast = useToast()
+const toast = useToast();
 
 async function onSubmit(event) {
-  const data = await $fetch("api.mo-dz.com/contact", {
+  const data = await $fetch("https://api.mo-dz.com/contact", {
     method: "POST",
     body: {
       name: conatctForm.name,
@@ -70,7 +71,7 @@ async function onSubmit(event) {
   });
 
   if (data) {
-    toast.add({ title: 'Message Sent Successfully!' })
+    toast.add({ title: "Message Sent Successfully!" });
     conatctForm.name = "";
     conatctForm.email = "";
     conatctForm.phone = "";

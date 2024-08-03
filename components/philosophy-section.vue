@@ -1,11 +1,10 @@
 <template>
   <div id="philosophy" class="my-20 px-20">
-    <h1
-      class="text-5xl font-bold text-primary-700"
+    <h1 class="text-5xl font-bold text-[#1D6E5C]">Why Choose Modz?</h1>
+    <div
+      class="flex justify-between items-center mt-10 px-20"
+      style="background-image: url('/Sprinkle.svg')"
     >
-      Why Choose Modz?
-    </h1>
-    <div class="flex justify-between items-center mt-10 px-20" style="background-image: url('/Sprinkle.svg');">
       <div class="w-3/5 space-y-16 text-xl font-semibold">
         <div class="w-full indent-5 bg-white">
           At Modz, we simplify the process of finding and hiring construction

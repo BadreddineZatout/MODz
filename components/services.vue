@@ -1,7 +1,9 @@
 <template>
   <div id="services" class="my-20 px-20">
-    <h1 class="text-5xl font-bold text-primary-700">Our Services</h1>
-    <div class="flex flex-wrap justify-center gap-y-10 gap-x-52 items-center mt-10 px-20">
+    <h1 class="text-5xl font-bold text-[#1D6E5C]">Our Services</h1>
+    <div
+      class="flex flex-wrap justify-center gap-y-10 gap-x-52 items-center mt-10 px-20"
+    >
       <div class="relative w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg">
         <img
           class="absolute w-32 -top-16 -left-16"
@@ -16,11 +18,7 @@
         </p>
       </div>
       <div class="relative w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg">
-        <img
-          class="absolute w-20 -top-10 -left-10"
-          src="/repair.png"
-          alt=""
-        />
+        <img class="absolute w-20 -top-10 -left-10" src="/repair.png" alt="" />
         <h1 class="text-2xl font-bold text-primary-800">Repair</h1>
         <p>
           Addressing issues in electricity, plumbing, painting, and building,
