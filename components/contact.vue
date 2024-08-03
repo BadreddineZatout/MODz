@@ -3,7 +3,12 @@
     <h1 class="text-5xl font-bold text-[#1D6E5C]">{{ $t("Contact Us") }}</h1>
     <div class="flex justify-between items-center mt-10 px-20">
       <div class="w-2/3 rounded-xl overflow-hidden">
-        <img src="/contact-us.png" alt="" />
+        <img class="rtl:hidden" src="/contact-us.png" alt="" />
+        <img
+          class="ltr:hidden -translate-x-16"
+          src="/contact-us-rtl.png"
+          alt=""
+        />
       </div>
       <div class="w-3/5 space-y-16 text-xl font-semibold">
         <UForm

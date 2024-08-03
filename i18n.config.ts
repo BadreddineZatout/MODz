@@ -48,6 +48,11 @@ export default defineI18nConfig(() => ({
         "Découvrez la commodité de Modz dès aujourd’hui. Téléchargez notre application et connectez-vous avec des professionnels de la construction de confiance en quelques clics.",
       "Get The App": "Obtenir l’application",
       "message sent successfully!": "Message envoyé avec succès !",
+      Required: "Obligatoire",
+      "Invalid email": "E-mail non valide",
+      "Must be at least 9 characters": "Doit comporter au moins 9 caractères",
+      "Must be at most 10 characters":
+        "Doit comporter au maximum 10 caractères",
     },
     ar: {
       Empowering: "تمكين",
@@ -95,6 +100,10 @@ export default defineI18nConfig(() => ({
         "جرب راحة Modz اليوم. قم بتنزيل تطبيقنا وتواصل مع محترفي البناء الموثوق بهم ببضع نقرات فقط.",
       "Get The App": "احصل على التطبيق",
       "message sent successfully!": "!تم إرسال الرسالة بنجاح",
+      Required: "مطلوب",
+      "Invalid email": "البريد الإلكتروني غير صالح",
+      "Must be at least 9 characters": "يجب أن تتكون من 9 أحرف على الأقل",
+      "Must be at most 10 characters": "يجب أن تتكون من 10 أحرف على الأكثر",
     },
   },
 }));
