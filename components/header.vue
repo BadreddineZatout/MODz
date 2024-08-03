@@ -1,29 +1,27 @@
 <template>
   <div class="flex w-full items-center justify-start bg-secondary-950 sm:px-10">
-    <NuxtLink to="/" class="w-fit">
+    <NuxtLink to="/" class="hidden sm:block w-fit">
       <img class="w-14 ltr:mr-10 rtl:ml-10" src="/logo.png" alt="logo" />
     </NuxtLink>
     <div
-      class="flex w-full items-center justify-start gap-10 font-semibold text-white"
+      class="flex flex-wrap sm:flex-nowrap py-5 px-2 sm:py-0 sm:px-0 w-full items-center justify-start gap-4 sm:gap-10 font-semibold text-white"
     >
-      <NuxtLink
-        class="hidden hover:text-primary-600 sm:block"
-        to="#philosophy"
-        >{{ $t("Our Philosophy") }}</NuxtLink
-      >
-      <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#about-us">{{
+      <NuxtLink class="hover:text-primary-600" to="#philosophy">{{
+        $t("Our Philosophy")
+      }}</NuxtLink>
+      <NuxtLink class="hover:text-primary-600" to="#about-us">{{
         $t("About Us")
       }}</NuxtLink>
-      <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#services">{{
+      <NuxtLink class="hover:text-primary-600" to="#services">{{
         $t("Services")
       }}</NuxtLink>
-      <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#contact">{{
+      <NuxtLink class="hover:text-primary-600" to="#contact">{{
         $t("Contact")
       }}</NuxtLink>
-      <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#contact">{{
+      <NuxtLink class="hover:text-primary-600" to="#contact">{{
         $t("Mobile App")
       }}</NuxtLink>
-      <div>
+      <div class="float-end">
         <button
           v-if="locale == 'ar'"
           class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-primary-700 text-white"
