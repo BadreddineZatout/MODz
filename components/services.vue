@@ -1,16 +1,16 @@
 <template>
-  <div id="services" class="my-20 px-5 sm:px-20">
-    <h1 class="text-4xl sm:text-5xl font-bold text-[#1D6E5C]">
+  <div id="services" class="my-20 px-5 lg:px-20">
+    <h1 class="text-4xl lg:text-5xl font-bold text-[#1D6E5C]">
       {{ $t("Our Services") }}
     </h1>
     <div
-      class="flex flex-wrap justify-center gap-y-10 gap-x-52 items-center mt-10 sm:px-20"
+      class="flex flex-wrap justify-center gap-y-10 gap-x-52 items-center mt-10 lg:px-20"
     >
       <div
-        class="relative w-full sm:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
+        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
       >
         <img
-          class="absolute w-32 -top-16 -left-5 sm:-left-16"
+          class="absolute w-32 -top-16 -right-5 rtl:-left-5 lg:-left-16"
           src="/normal-service.png"
           alt=""
         />
@@ -26,10 +26,10 @@
         </p>
       </div>
       <div
-        class="relative w-full sm:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
+        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
       >
         <img
-          class="absolute w-20 -top-10 -left-0 sm:-left-10"
+          class="absolute w-20 -top-10 right-0 rtl:-left-0 lg:-left-10"
           src="/repair.png"
           alt=""
         />
@@ -43,10 +43,10 @@
         </p>
       </div>
       <div
-        class="relative w-full sm:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
+        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
       >
         <img
-          class="absolute w-20 -top-10 -left-0 sm:-left-10"
+          class="absolute w-20 -top-10 -right-0 rtl:-left-0 lg:-left-10"
           src="/urgent-repair.png"
           alt=""
         />
@@ -62,10 +62,10 @@
         </p>
       </div>
       <div
-        class="relative w-full sm:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
+        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
       >
         <img
-          class="absolute w-32 -top-16 -left-5 sm:-left-16"
+          class="absolute w-32 -top-16 -right-5 rtl:-left-5 lg:-left-16"
           src="/consultation.png"
           alt=""
         />
@@ -81,10 +81,10 @@
         </p>
       </div>
       <div
-        class="relative w-full sm:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
+        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
       >
         <img
-          class="absolute w-32 -top-16 -left-5 sm:-left-24"
+          class="absolute w-32 -top-16 -right-5 rtl:-left-5 lg:-left-24"
           src="/construction.png"
           alt=""
         />

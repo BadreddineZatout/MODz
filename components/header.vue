@@ -1,27 +1,29 @@
 <template>
-  <div class="flex w-full items-center justify-start bg-secondary-950 sm:px-10">
-    <NuxtLink to="/" class="hidden sm:block w-fit">
+  <div class="flex w-full items-center justify-start bg-secondary-950 lg:px-10">
+    <NuxtLink to="/" class="hidden lg:block w-fit">
       <img class="w-14 ltr:mr-10 rtl:ml-10" src="/logo.png" alt="logo" />
     </NuxtLink>
     <div
-      class="flex flex-wrap sm:flex-nowrap py-5 px-2 sm:py-0 sm:px-0 w-full items-center justify-start gap-4 sm:gap-10 font-semibold text-white"
+      class="flex flex-wrap lg:flex-nowrap py-5 px-2 lg:py-0 lg:px-0 w-full items-center justify-between lg:justify-start gap-4 lg:gap-10 font-semibold text-white"
     >
-      <NuxtLink class="hover:text-primary-600" to="#philosophy">{{
-        $t("Our Philosophy")
-      }}</NuxtLink>
-      <NuxtLink class="hover:text-primary-600" to="#about-us">{{
+      <NuxtLink
+        class="hidden lg:block hover:text-primary-600"
+        to="#philosophy"
+        >{{ $t("Our Philosophy") }}</NuxtLink
+      >
+      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#about-us">{{
         $t("About Us")
       }}</NuxtLink>
-      <NuxtLink class="hover:text-primary-600" to="#services">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#services">{{
         $t("Services")
       }}</NuxtLink>
-      <NuxtLink class="hover:text-primary-600" to="#contact">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#contact">{{
         $t("Contact")
       }}</NuxtLink>
-      <NuxtLink class="hover:text-primary-600" to="#contact">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#">{{
         $t("Mobile App")
       }}</NuxtLink>
-      <div class="float-end">
+      <div>
         <button
           v-if="locale == 'ar'"
           class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-primary-700 text-white"
@@ -69,33 +71,41 @@
           عربي
         </button>
       </div>
+      <UDropdown
+        class="ml-5 lg:hidden"
+        :items="nav_items"
+        mode="click"
+        :popper="{ placement: 'bottom-start' }"
+      >
+        <UButton
+          class="bg-secondary-950"
+          trailing-icon="i-heroicons-bars-4-20-solid"
+        />
+      </UDropdown>
     </div>
   </div>
 </template>
 
 <script setup>
+const { locale, setLocale, t } = useI18n();
 const nav_items = [
   [
     {
-      label: "services",
-      path: "/services",
+      label: t("Our Philosophy"),
+      path: "#philosophy",
     },
     {
-      label: "vehicles",
-      path: "/vehicles",
+      label: t("About Us"),
+      path: "#about-us",
     },
     {
-      label: "contact",
-      slot: "contact",
+      label: t("Services"),
+      path: "#services",
+    },
+    {
+      label: t("Contact"),
       path: "#contact",
-    },
-    {
-      label: "login",
-      slot: "login",
-      path: "/login",
     },
   ],
 ];
-
-const { locale, setLocale } = useI18n();
 </script>

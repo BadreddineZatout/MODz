@@ -1,13 +1,13 @@
 <template>
-  <div id="philosophy" class="my-20 px-5 sm:px-20">
-    <h1 class="text-4xl sm:text-5xl font-bold text-[#1D6E5C]">
+  <div id="philosophy" class="my-20 px-5 lg:px-20">
+    <h1 class="text-4xl lg:text-5xl font-bold text-[#1D6E5C]">
       {{ $t("Why Choose Modz?") }}
     </h1>
     <div
-      class="flex flex-col-reverse sm:flex-row justify-between items-center mt-10 sm:px-20"
+      class="flex flex-col-reverse lg:flex-row justify-between items-center mt-10 lg:px-20"
       style="background-image: url('/Sprinkle.svg')"
     >
-      <div class="w-full sm:w-3/5 space-y-16 text-xl font-semibold">
+      <div class="w-full lg:w-3/5 space-y-16 text-xl font-semibold">
         <div class="w-full indent-5 bg-white dark:bg-[#1c1b22]">
           {{
             $t(
@@ -23,7 +23,7 @@
           }}
         </div>
       </div>
-      <div class="w-full sm:w-1/3 rounded-xl overflow-hidden">
+      <div class="w-full lg:w-1/3 rounded-xl overflow-hidden">
         <img src="/philosophy-section.jpg" alt="" />
       </div>
     </div>

@@ -1,10 +1,10 @@
 <template>
-  <div id="contact" class="my-20 px-5 sm:px-20">
-    <h1 class="text-4xl sm:text-5xl font-bold text-[#1D6E5C]">
+  <div id="contact" class="my-20 px-5 lg:px-20">
+    <h1 class="text-4xl lg:text-5xl font-bold text-[#1D6E5C]">
       {{ $t("Contact Us") }}
     </h1>
-    <div class="flex justify-between items-center mt-10 sm:px-20">
-      <div class="hidden sm:block w-2/3 rounded-xl overflow-hidden">
+    <div class="flex justify-between items-center mt-10 lg:px-20">
+      <div class="hidden lg:block w-2/3 rounded-xl overflow-hidden">
         <img class="rtl:hidden" src="/contact-us.png" alt="" />
         <img
           class="ltr:hidden -translate-x-16"
@@ -12,7 +12,7 @@
           alt=""
         />
       </div>
-      <div class="w-full sm:w-3/5 space-y-16 text-xl font-semibold">
+      <div class="w-full lg:w-3/5 space-y-16 text-xl font-semibold">
         <UForm
           :schema="schema"
           :state="conatctForm"
