@@ -76,7 +76,7 @@ async function onSubmit(event) {
   });
 
   if (data) {
-    toast.add({ title: $t("Message Sent Successfully!") });
+    toast.add({ title: t("Message Sent Successfully!") });
     conatctForm.name = "";
     conatctForm.email = "";
     conatctForm.phone = "";

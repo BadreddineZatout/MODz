@@ -38,7 +38,7 @@ export default defineI18nConfig(() => ({
       phone: "téléphone",
       message: "message",
       submit: "Envoyer",
-      Menu: "Notre philosophie",
+      Menu: "Menu",
       "Our Philosophy": "Notre philosophie",
       Services: "Services",
       Contact: "Contact",
