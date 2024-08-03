@@ -50,35 +50,46 @@
       <div
         class="flex flex-col w-full items-start justify-start gap-3 font-semibold text-white sm:w-1/2 mt-10"
       >
-        <h1 class="text-3xl font-bold">Menu</h1>
+        <h1 class="text-3xl font-bold">{{ $t("Menu") }}</h1>
         <NuxtLink
           class="hidden hover:text-primary-600 sm:block"
           to="#philosophy"
-          >Our Philosophy</NuxtLink
+          >{{ $t("Our Philosophy") }}</NuxtLink
         >
-        <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#about-us"
-          >About Us</NuxtLink
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#about-us"
+          >{{ $t("About Us") }}</NuxtLink
         >
-        <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#services"
-          >Services</NuxtLink
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#services"
+          >{{ $t("Services") }}</NuxtLink
         >
-        <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#contact"
-          >Contact</NuxtLink
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#contact"
+          >{{ $t("Contact") }}</NuxtLink
         >
-        <NuxtLink class="hidden hover:text-primary-600 sm:block" to="#contact"
-          >Mobile App</NuxtLink
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#contact"
+          >{{ $t("Mobile App") }}</NuxtLink
         >
       </div>
       <div class="mt-10">
-        <h1 class="text-3xl font-bold">Download Our App</h1>
+        <h1 class="text-3xl font-bold">{{ $t("Download Our App") }}</h1>
         <p class="mt-5 w-2/3">
-          Experience the convenience of Modz today. Download our app and connect
-          with trusted construction professionals in just a few taps.
+          {{
+            $t(
+              "Experience the convenience of Modz today. Download our app and connect with trusted construction professionals in just a few taps."
+            )
+          }}
         </p>
         <div
           class="text-white text-xl font-bold flex items-center gap-1 mt-5 hover:text-primary-600"
         >
-          <NuxtLink class="" to="#">Get The App</NuxtLink>
+          <NuxtLink class="" to="#">{{ $t("Get The App") }}</NuxtLink>
           <svg
             class="w-5"
             data-slot="icon"

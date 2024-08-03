@@ -4,9 +4,9 @@
       class="w-1/2 flex items-end bg-secondary-950 font-bold text-6xl h-[572px] text-secondary-500"
     >
       <div class="absolute top-20 left-20 w-fit space-y-10">
-        <h1 class="text-[#1D6E5C]">Empowering</h1>
-        <h1 class="indent-24">Your Construction Projects</h1>
-        <h1 class="indent-60">with Trusted Professionals</h1>
+        <h1 class="text-[#1D6E5C]">{{ $t("Empowering") }}</h1>
+        <h1 class="indent-24">{{ $t("Your Construction Projects") }}</h1>
+        <h1 class="indent-60">{{ $t("With Trusted Professionals") }}</h1>
       </div>
       <div
         class="w-[500px] h-[500px] border-4 border-[#1D6E5C] rounded-full absolute -bottom-80 -left-40"
@@ -30,7 +30,9 @@
             stroke-linejoin="round"
           ></path>
         </svg>
-        <NuxtLink class="hover:text-primary-600" to="#">Get The App</NuxtLink>
+        <NuxtLink class="hover:text-primary-600" to="#">{{
+          $t("Get The App")
+        }}</NuxtLink>
       </div>
     </div>
     <div class="w-1/2">
