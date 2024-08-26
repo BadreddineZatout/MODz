@@ -6,22 +6,15 @@
       <div
         class="lg:absolute top-20 ltr:left-20 rtl:right-20 w-fit space-y-5 lg:space-y-10 pb-5 lg:pb-0"
       >
-        <h1 class="indent-2 text-[#1D6E5C] lg:rtl:indent-24">
-          {{ $t("Empowering") }}
-        </h1>
-        <h1 class="indent-5 lg:indent-44">
-          {{ $t("Your Construction Projects") }}
-        </h1>
-        <h1 class="indent-20 lg:indent-60 lg:rtl:indent-96">
-          {{ $t("With Trusted Professionals") }}
+        <h1 class="indent-2 text-[#fbfcfb] lg:rtl:indent-24">
+          {{ $t("Transform your visions in") }}
         </h1>
       </div>
       <div
-        class="hidden lg:block w-[500px] h-[500px] border-4 border-[#1D6E5C] rounded-full absolute -bottom-80 ltr:-left-40 rtl:-right-40"
-      ></div>
+        class="hidden lg:block w-[500px] h-[500px] border-4 border-[#1D6E5C] rounded-full absolute -bottom-80 ltr:-left-40 rtl:-right-40" >
+      </div>
       <div
-        class="hidden lg:flex text-xl text-white font-semibold items-center gap-5 ltr:pl-5 rtl:pr-5 pb-5 animate-bounce"
-      >
+        class="hidden lg:flex text-xl text-white font-semibold items-center gap-5 ltr:pl-5 rtl:pr-5 pb-5 animate-bounce">
         <svg
           class="w-10 text-[#1D6E5C]"
           data-slot="icon"
@@ -43,8 +36,8 @@
         }}</NuxtLink>
       </div>
     </div>
-    <div class="w-full lg:w-1/2">
-      <img src="/hero-section.jpg" />
+    <div class="bg-cover bg-center h-96 ">
+      <img src="/hero-section.jpg" left-0 />
     </div>
   </div>
 </template>

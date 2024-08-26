@@ -2,7 +2,6 @@
   <div>
     <HeroSection />
     <PhilosophySection />
-    <AboutUs />
     <Services />
     <Contact />
   </div>

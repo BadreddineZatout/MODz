@@ -1,28 +1,24 @@
 <template>
   <div class="flex w-full items-center justify-start bg-secondary-950 lg:px-10">
     <NuxtLink to="/" class="hidden lg:block w-fit">
-      <img class="w-14 ltr:mr-10 rtl:ml-10" src="/logo.png" alt="logo" />
+      <img class="w-20 ltr:mr-10 rtl:ml-10" src="public/b02fd6101114e70f10a84af317d821ca.png" alt="logo" />
     </NuxtLink>
     <div
       class="flex flex-wrap lg:flex-nowrap py-5 px-2 lg:py-0 lg:px-0 w-full items-center justify-between lg:justify-start gap-4 lg:gap-10 font-semibold text-white"
     >
-      <NuxtLink
-        class="hidden lg:block hover:text-primary-600"
-        to="#philosophy"
-        >{{ $t("Our Philosophy") }}</NuxtLink
-      >
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#about-us">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#à propos">{{
         $t("About Us")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#services">{{
-        $t("Services")
+      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#Nos services">{{
+        $t("Our Services")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#contact">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#télecharger">{{
+        $t("Download Our App") 
+      }}</NuxtLink>
+      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#contact">{{
         $t("Contact")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#">{{
-        $t("Mobile App")
-      }}</NuxtLink>
+      
       <div>
         <button
           v-if="locale == 'ar'"
@@ -68,7 +64,7 @@
               stroke-linejoin="round"
             ></path>
           </svg>
-          عربي
+          arabe
         </button>
       </div>
       <UDropdown

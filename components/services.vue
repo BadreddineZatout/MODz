@@ -1,8 +1,14 @@
 <template>
-  <div id="services" class="my-20 px-5 lg:px-20">
-    <h1 class="text-4xl lg:text-5xl font-bold text-[#1D6E5C]">
+  <div id="services" class="my-20 ">
+  <div 
+  class="w-full h-72 overflow-hidden relative">
+  <img src="/423d560003b308aa94f85e123dab942f.jpg" alt=""
+  class="-translate-y-48">
+    <h1 class="text-4xl lg:text-8xl font-bold text-[#f9faf9] absolute top-1/3 left-1/4 shadow-md">
       {{ $t("Our Services") }}
     </h1>
+    
+  </div>
     <div
       class="flex flex-wrap justify-center gap-y-10 gap-x-52 items-center mt-10 lg:px-20"
     >

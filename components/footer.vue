@@ -2,10 +2,11 @@
   <div id="contact" class="bg-secondary-950 px-14 pb-2 pt-5 text-white">
     <div class="flex flex-col justify-around sm:flex-row">
       <div class="w-1/5">
-        <NuxtLink to="/">
-          <img src="/logo.png" alt="logo" />
+        <NuxtLink to="/"> 
+          <img src="/public/b02fd6101114e70f10a84af317d821ca.png" alt="logo" />
         </NuxtLink>
       </div>
+      
       <div class="w-full flex-col sm:w-2/6 mt-10">
         <h1 class="text-3xl font-bold">MODz</h1>
         <div class="mb-2 mt-6 flex items-center">
@@ -53,29 +54,26 @@
         <h1 class="text-3xl font-bold">{{ $t("Menu") }}</h1>
         <NuxtLink
           class="hidden hover:text-primary-600 sm:block"
-          to="#philosophy"
-          >{{ $t("Our Philosophy") }}</NuxtLink
-        >
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#about-us"
+          to="#à propos"
           >{{ $t("About Us") }}</NuxtLink
         >
+        
         <NuxtLink
           class="hidden hover:text-primary-600 sm:block"
-          to="#services"
-          >{{ $t("Services") }}</NuxtLink
+          to="#nosservices"
+          >{{ $t("Our Services") }}</NuxtLink
+        >
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#télécharger"
+          >{{ $t("Download Our App") }}</NuxtLink
         >
         <NuxtLink
           class="hidden hover:text-primary-600 sm:block"
           to="#contact"
-          >{{ $t("Contact") }}</NuxtLink
+          >{{ $t("Contact Us") }}</NuxtLink
         >
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#contact"
-          >{{ $t("Mobile App") }}</NuxtLink
-        >
+        
       </div>
       <div class="mt-10">
         <h1 class="text-3xl font-bold">{{ $t("Download Our App") }}</h1>
