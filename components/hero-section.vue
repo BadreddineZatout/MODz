@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="bg-cover bg-center h-96 ">
-      <img src="/hero-section.jpg" left-0 />
+      <img src="/hero-section.jpg" />
     </div>
   </div>
 </template>

@@ -15,21 +15,16 @@ export default defineI18nConfig(() => ({
       "Modz is revolutionizing the way you connect with construction services. Our mission is to provide a user-friendly platform that ensures efficient project management through trusted professionals":
         "MOdz révolutionne la façon dont vous vous connectez avec le service de construction. Notre mission est de fournir une plateforme conviviale qui assure une gestion de projet efficace grâce à des professionnels de confiance",
       "Our Services": "Nos services",
-      "Normal Service": "service normal",
-      "Covering electricity, plumbing, painting, and building, our regular service ensures your ongoing maintenance needs are met promptly and professionally.":
-        "Qu’il s’agisse de l’électricité, de la plomberie, de la peinture ou du bâtiment, notre service régulier garantit que vos besoins d’entretien sont satisfaits rapidement et professionnellement",
-      Repair: "réparer",
-      "Addressing issues in electricity, plumbing, painting, and building, our repair service offers timely solutions to keep your spaces functional and safe.":
-        "En résolvant les problèmes d’électricité, de plomberie, de chauffage et de construction, notre service de réparation offre une solution rapide pour garder vos espaces fonctionnels et sûrs",
-      "Urgent Repair": "Réparation urgente",
-      "For critical situations involving electricity and plumbing, our urgent repair service provides immediate assistance to prevent further damage and inconvenience.":
-        "Pour les situations critiques impliquant l’électricité et la plomberie, notre service de réparation urgente fournit une assistance immédiate pour éviter d’autres dommages et désagréments.",
-      Consultation: "consultation",
-      "Gain insights and recommendations from industry experts on electricity, plumbing, painting, and building through our consultation service.":
-        "Obtenez des idées et des recommandations d’experts de l’industrie en électricité, en plomberie, en peinture et en construction grâce à notre service de consultation",
-      Construction: "construction",
-      "From small-scale renovations to large-scale projects, our construction services cater to diverse needs with quality craftsmanship and attention to detail.":
-        "Qu’il s’agisse de rénovations à petite échelle ou de projets à grande échelle, nos services de construction répondent à divers besoins grâce à un savoir-faire de qualité et à un souci du détail.",
+      "Rpair": "réparation",
+      "Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.":"Répondant aux problèmes ​d'électricité, de plomberie, de ​peinture et de construction, ​notre service de réparation offre ​des solutions rapides pour ​maintenir vos espaces ​fonctionnels et sûrs.",
+      "Regular service":"service ​régulier",
+      "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness":"Électricité, plomberie, peinture et construction, ​notre service régulier répond à vos besoins de ​maintenance avec professionnalisme et ​réactivité",
+      "Emergency Repair":"Réparation ​D'urgente",
+      "For critical situations involving electrical and plumbing, our emergency repair service provides immediate assistance to prevent further damage and inconvenience.":"Pour les situations critiques ​impliquant l'électricité et la ​plomberie, notre service de ​réparation urgente fournit une ​assistance immédiate pour prévenir ​d'autres dommages et ​désagréments.",
+      "Consultation":"Consultation",
+      "Receive expert advice with our consultation service.":"Recevez des conseils d'experts avec notre service ​de consultation.",
+      "Building site":"Chantier",
+      "From small renovations to large projects, our construction services meet various needs with quality craftsmanship and attention to detail.":"Des rénovations petites aux ​grands projets, nos services de ​construction répondent à divers ​besoins avec un savoir-faire de ​qualité et une attention aux ​détails.",
       "Contact Us": "Contactez-nous",
       Name: "nom",
       Email: "messagerie électronique",
@@ -70,20 +65,17 @@ export default defineI18nConfig(() => ({
       "Our Services": "خدماتنا",
       "Normal Service": "الخدمة العادية",
       "Covering electricity, plumbing, painting, and building, our regular service ensures your ongoing maintenance needs are met promptly and professionally.":
-        "تغطي خدمتنا المنتظمة الكهرباء والسباكة والطلاء والبناء ، وتضمن تلبية احتياجات الصيانة المستمرة الخاصة بك على الفور وبشكل احترافي",
-      Repair: "إصلاح",
-      "Addressing issues in electricity, plumbing, painting, and building, our repair service offers timely solutions to keep your spaces functional and safe.":
-        "معالجة المشكلات في الكهرباء والسباكة والبناء والبناء ، تقدم خدمة الإصلاح لدينا حلا في الوقت المناسب للحفاظ على مساحاتك وظيفية وآمنة",
-      "Urgent Repair": "إصلاح عاجل",
-      "For critical situations involving electricity and plumbing, our urgent repair service provides immediate assistance to prevent further damage and inconvenience.":
-        "بالنسبة للحالات الحرجة التي تنطوي على الكهرباء والسباكة ، توفر خدمة الإصلاح العاجلة لدينا مساعدة فورية لمنع المزيد من الضرر والإزعاج",
-      Consultation: "استشارة",
-      "Gain insights and recommendations from industry experts on electricity, plumbing, painting, and building through our consultation service.":
-        "احصل على رؤى وتوصيات من خبراء الصناعة في مجال الكهرباء والسباكة والطلاء والبناء من خلال خدمة الاستشارات لدينا",
-      Construction: "بناء",
-      "From small-scale renovations to large-scale projects, our construction services cater to diverse needs with quality craftsmanship and attention to detail.":
-        "من التجديدات الصغيرة إلى المشاريع واسعة النطاق ، تلبي خدمات البناء لدينا الاحتياجات المتنوعة بحرفية عالية الجودة والاهتمام بالتفاصيل.",
-      "Contact Us": "اتصل بنا",
+      ".تغطي خدمتنا المنتظمة الكهرباء والسباكة والطلاء والبناء ، وتضمن تلبية احتياجات الصيانة المستمرة الخاصة بك على الفور وبشكل احترافي",
+      "Repair":"تصليح ",
+      "Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.":"من خلال معالجة مشكلات الكهرباء والسباكة والطلاء والبناء ، تقدم خدمة الإصلاح لدينا حلولا سريعة للحفاظ على مساحاتك وظيفية وآمنة.",
+      "Regular service":"خدمة منتظمة",
+      "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness":"الكهرباء والسباكة والطلاء والبناء ، خدمتنا المنتظمة تلبي احتياجات الصيانة الخاصة بك باحترافية واستجابة",
+      "Emergency Repair":"إصلاح الطوارئ",
+      "For critical situations involving electrical and plumbing, our emergency repair service provides immediate assistance to prevent further damage and inconvenience.":".بالنسبة للحالات الحرجة التي تنطوي على الكهرباء والسباكة ، توفر خدمة الإصلاح في حالات الطوارئ لدينا مساعدة فورية لمنع المزيد من الضرر والإزعاج",
+      "Consultation":"التشاور",
+      "Receive expert advice with our consultation service.":".احصل على مشورة الخبراء من خلال خدمة الاستشارات لدينا",
+      "Building site":"موقع البناء",
+      "From small renovations to large projects, our construction services meet various needs with quality craftsmanship and attention to detail.":".من التجديدات الصغيرة إلى المشاريع الكبيرة ، تلبي خدمات البناء لدينا الاحتياجات المختلفة بحرفية عالية الجودة والاهتمام بالتفاصيل",
       Name: "اسم",
       Email: "البريد الإلكتروني",
       phone: "الهاتف",
