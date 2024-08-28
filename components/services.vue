@@ -23,38 +23,43 @@
 
       </div>
       <div
-        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
-      >
-       
-        <h1 class="text-4xl font-bold text-primary-800">{{ $t("Rpair") }}</h1>
+        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg">
+       <h1 class="text-4xl font-bold text-primary-800"> 
+        {{ $t("Rpair") }}
+      </h1>
         <p>
           {{ $t("Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.") }}
         </p>
       </div>
-      <div
-        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
-      >
-        
-        <h1 class="text-4xl font-bold text-primary-800">
+      <div class="flex  lg:flex-row justify-between bg-left mt-15">
+        <div class="w-1/2  space-y-5">
+          <img class="h-50" src="/514719d14a617f6ef2ad56f5de834d23.jpg" alt="" />
+          <img class="h-50" src="/81b70b71a9fcf48c1e6e8cb76c27f3c9.jpg" alt="" />
+         </div>
+        <div class="flex flex-col justify-center gap-y-20  w-1/4">
+         <h1 class="text-5xl shadow-md text-primary-800">
           {{ $t("Emergency Repair") }}
-        </h1>
-        <p>
+         </h1>
+         <p>
           {{ $t("For critical situations involving electrical and plumbing, our emergency repair service provides immediate assistance to prevent further damage and inconvenience.")}}
-        </p>
-      </div>
-      <div
-        class="relative w-full lg:w-1/3 mt-10 px-10 py-4 rounded-lg hover:shadow-lg"
-      >
-        
-        <h1 class="text-4xl font-bold text-primary-800">
+         </p>
+        </div>
+       </div>
+       
+      <div class="flex justify-between">
+        <h1 class="text-5xl shadow-md  text-primary-800">
           {{ $t("Consultation") }}
         </h1>
+        <div class="flex lg:flex-col"  > </div>
+        <div class="w-1/2 space-y-5">
+          <img class="h-50" src="/3c60aa465731b6213560888ad82e8e9b.png" alt="" />
+          <img class="h-50" src="/0a5fcd07e54cbd5f5bec437dee505c10.jpg" alt="" />
+       </div>
         <p>
           {{$t("Receive expert advice with our consultation service.") }}
         </p>
       </div>
-      <div
-      class="flex flex-col-reverse lg:flex-row justify-between bg-left mt-15 ">
+      <div class="flex flex-col-reverse lg:flex-row justify-between bg-left mt-15 ">
       <div class="flex flex-col justify-center gap-y-20 w-1/4">
        <h1 class="text-5xl shadow-md text-primary-800">
         {{ $t("Building site") }}
@@ -64,7 +69,6 @@
        </p>
     </div>
     <div class="w-1/2 space-y-5">
-      
         <img class="h-50" src="/about-us-2.jpg" alt="" />
         <img class="h-50" src="/bcd25091758a4018b0baec5ed4fe5473.jpg" alt="" />
      </div>
