@@ -37,8 +37,10 @@ export default defineI18nConfig(() => ({
       Contact: "Contact",
       "Mobile App": "Application mobile",
       "Download": "Téléchargez maintenant",
-      "Experience the convenience of Modz today. Download our app and connect with trusted construction professionals in just a few taps.":
-        "Découvrez la commodité de Modz dès aujourd’hui. Téléchargez notre application et connectez-vous avec des professionnels de la construction de confiance en quelques clics.",
+      "Download our app": "Téléchargez Notre Application",
+      "get the app": "Obtenez l'application",
+      "Experience the convenience of Modz":
+        "Découvrez la simplicité de Modz. Téléchargez notre ​application pour connecter rapidement avec des ​professionnels.",
       "Get The App": "Obtenir l’application",
       "message sent successfully!": "Message envoyé avec succès !",
       Required: "Obligatoire",
