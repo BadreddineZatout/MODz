@@ -2,8 +2,8 @@
   <div>
     <HeroSection />
     <PhilosophySection />
-    <AboutUs />
     <Services />
+    <DownloadApp />
     <Contact />
   </div>
 </template>

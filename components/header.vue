@@ -1,32 +1,44 @@
 <template>
-  <div class="flex w-full items-center justify-start bg-secondary-950 lg:px-10">
-    <NuxtLink to="/" class="hidden lg:block w-fit">
-      <img class="w-14 ltr:mr-10 rtl:ml-10" src="/logo.png" alt="logo" />
+  <div
+    class="flex h-20 w-full items-center justify-start overflow-y-hidden bg-secondary-950 lg:px-10"
+  >
+    <NuxtLink to="/" class="mx-10 hidden w-fit lg:block">
+      <img class="w-40" src="public/full-logo.png" alt="logo" />
     </NuxtLink>
     <div
-      class="flex flex-wrap lg:flex-nowrap py-5 px-2 lg:py-0 lg:px-0 w-full items-center justify-between lg:justify-start gap-4 lg:gap-10 font-semibold text-white"
+      class="flex w-full flex-wrap items-center justify-between gap-4 px-2 py-5 text-2xl font-bold text-white lg:flex-nowrap lg:justify-start lg:gap-10 lg:px-0 lg:py-0"
     >
       <NuxtLink
-        class="hidden lg:block hover:text-primary-600"
-        to="#philosophy"
-        >{{ $t("Our Philosophy") }}</NuxtLink
+        class="ml-20 hidden hover:text-[#1D6E5C] lg:block"
+        to="#about-us"
+        >{{ $t("About Us") }}</NuxtLink
       >
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#about-us">{{
-        $t("About Us")
+      <NuxtLink class="hidden hover:text-[#1D6E5C] lg:block" to="#services">{{
+        $t("Our Services")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#services">{{
-        $t("Services")
+      <NuxtLink class="hidden hover:text-[#1D6E5C] lg:block" to="#download">{{
+        $t("Download Our App")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#contact">{{
-        $t("Contact")
-      }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#">{{
-        $t("Mobile App")
-      }}</NuxtLink>
+      <NuxtLink
+        class="mr-20 hidden hover:text-[#1D6E5C] lg:block"
+        to="#contact"
+        >{{ $t("Contact") }}</NuxtLink
+      >
+      <UDropdown
+        class="ml-5 lg:hidden"
+        :items="nav_items"
+        mode="click"
+        :popper="{ placement: 'bottom-start' }"
+      >
+        <UButton
+          class="bg-secondary-950"
+          trailing-icon="i-heroicons-bars-4-20-solid"
+        />
+      </UDropdown>
       <div>
         <button
           v-if="locale == 'ar'"
-          class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-primary-700 text-white"
+          class="flex items-center gap-x-2 rounded-xl px-5 py-2 text-white hover:text-[#1D6E5C]"
           @click="setLocale('fr')"
         >
           <svg
@@ -49,7 +61,7 @@
         </button>
         <button
           v-else
-          class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-primary-700 text-white"
+          class="flex items-center gap-x-2 rounded-xl px-5 py-2 text-white hover:text-[#1D6E5C]"
           @click="setLocale('ar')"
         >
           <svg
@@ -68,20 +80,9 @@
               stroke-linejoin="round"
             ></path>
           </svg>
-          عربي
+          arabe
         </button>
       </div>
-      <UDropdown
-        class="ml-5 lg:hidden"
-        :items="nav_items"
-        mode="click"
-        :popper="{ placement: 'bottom-start' }"
-      >
-        <UButton
-          class="bg-secondary-950"
-          trailing-icon="i-heroicons-bars-4-20-solid"
-        />
-      </UDropdown>
     </div>
   </div>
 </template>
@@ -91,16 +92,16 @@ const { locale, setLocale, t } = useI18n();
 const nav_items = [
   [
     {
-      label: t("Our Philosophy"),
-      path: "#philosophy",
-    },
-    {
       label: t("About Us"),
       path: "#about-us",
     },
     {
-      label: t("Services"),
+      label: t("Our Services"),
       path: "#services",
+    },
+    {
+      label: t("Download Our App"),
+      path: "#download",
     },
     {
       label: t("Contact"),
