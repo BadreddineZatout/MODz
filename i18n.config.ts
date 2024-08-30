@@ -36,7 +36,7 @@ export default defineI18nConfig(() => ({
       Services: "Services",
       Contact: "Contact",
       "Mobile App": "Application mobile",
-      "Download Our App": "Téléchargez notre application",
+      "Download": "Téléchargez maintenant",
       "Experience the convenience of Modz today. Download our app and connect with trusted construction professionals in just a few taps.":
         "Découvrez la commodité de Modz dès aujourd’hui. Téléchargez notre application et connectez-vous avec des professionnels de la construction de confiance en quelques clics.",
       "Get The App": "Obtenir l’application",
@@ -46,7 +46,10 @@ export default defineI18nConfig(() => ({
       "Must be at least 9 characters": "Doit comporter au moins 9 caractères",
       "Must be at most 10 characters":
       "Doit comporter au maximum 10 caractères",
-      "Transform your visions in":"Transformez vos visions en",
+      "Transform":"Transformez",
+      "your visions": "vos visions",
+      "in": "en",
+      "Reality": "Réalité",
       "We are your key to experts.":"Nous sommes votre clé ​pour des experts .",
       "Modz simplifies your access to trusted construction experts. We connect you with verified professionals for all your needs, from regular maintenance to urgent repairs, with reliable service every time.":"Modz simplifie votre accès à des experts en construction ​de confiance. Nous vous mettons en relation avec des ​professionnels vérifiés pour tous vos besoins, de la ​maintenance régulière aux réparations urgentes, avec ​un service fiable à chaque fois.",
     },
