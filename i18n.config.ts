@@ -6,7 +6,7 @@ export default defineI18nConfig(() => ({
       Empowering: "Autonomisation de",
       "Your Construction Projects": "Vos projets de construction",
       "With Trusted Professionals": "Avec des professionnels de confiance",
-      "Why Choose Modz?": "pourquoi choisir MOdz ?",
+      "Why Choose Modz?": "POURQUOI CHOISIR MODZ ?",
       "Modz is your essential tool for seamless access to verified construction experts. Our app simplifies the process of hiring professionals for any job, from routine maintenance to urgent repairs and consultations. Trust Modz to deliver reliable service, every time.":
         "Modz est votre outil essentiel pour un accès transparent à des experts en construction vérifiés. Notre application simplifie le processus d’embauche de professionnels pour n’importe quel travail, de l’entretien de routine aux réparations urgentes et aux consultations. Faites confiance à Modz pour vous fournir un service fiable, à chaque fois.",
       "About Us": "à propos",

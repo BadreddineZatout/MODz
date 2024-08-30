@@ -6,23 +6,23 @@
     <div
       class="flex flex-wrap lg:flex-nowrap py-5 px-2 lg:py-0 lg:px-0 w-full items-center justify-between lg:justify-start gap-4 lg:gap-10 text-white text-2xl font-bold"
     >
-      <NuxtLink class="hidden lg:block hover:text-primary-600 ml-20" to="#à propos">{{
+      <NuxtLink class="hidden lg:block hover:text-[#1D6E5C] ml-20" to="#about-us">{{
         $t("About Us")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#Nos services">{{
+      <NuxtLink class="hidden lg:block hover:text-[#1D6E5C]" to="#services">{{
         $t("Our Services")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#télecharger">{{
+      <NuxtLink class="hidden lg:block hover:text-[#1D6E5C]" to="#download">{{
         $t("Download Our App") 
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600 mr-20" to="#contact">{{
+      <NuxtLink class="hidden lg:block hover:text-[#1D6E5C] mr-20" to="#contact">{{
         $t("Contact")
       }}</NuxtLink>
       
       <div>
         <button
           v-if="locale == 'ar'"
-          class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-primary-700 text-white"
+          class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-[#1D6E5C] text-white"
           @click="setLocale('fr')"
         >
           <svg
@@ -45,7 +45,7 @@
         </button>
         <button
           v-else
-          class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-primary-700 text-white"
+          class="flex items-center gap-x-2 py-2 px-5 rounded-xl hover:text-[#1D6E5C] text-white"
           @click="setLocale('ar')"
         >
           <svg
