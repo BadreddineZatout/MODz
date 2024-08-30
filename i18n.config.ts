@@ -15,7 +15,7 @@ export default defineI18nConfig(() => ({
       "Modz is revolutionizing the way you connect with construction services. Our mission is to provide a user-friendly platform that ensures efficient project management through trusted professionals":
         "MOdz révolutionne la façon dont vous vous connectez avec le service de construction. Notre mission est de fournir une plateforme conviviale qui assure une gestion de projet efficace grâce à des professionnels de confiance",
       "Our Services": "Nos services",
-      "Rpair": "réparation",
+      "Repair": "réparation",
       "Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.":"Répondant aux problèmes ​d'électricité, de plomberie, de ​peinture et de construction, ​notre service de réparation offre ​des solutions rapides pour ​maintenir vos espaces ​fonctionnels et sûrs.",
       "Regular service":"service ​régulier",
       "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness":"Électricité, plomberie, peinture et construction, ​notre service régulier répond à vos besoins de ​maintenance avec professionnalisme et ​réactivité",
