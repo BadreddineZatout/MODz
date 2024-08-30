@@ -1,13 +1,20 @@
 <template>
-  <div id="contact" class="bg-secondary-950 px-14 pb-2 pt-5 text-white">
+  <div
+    id="contact"
+    class="bg-secondary-950 px-5 pb-2 text-white lg:px-14 lg:pt-5"
+  >
     <div class="flex flex-col justify-around sm:flex-row">
-      <div class="w-1/5">
-        <NuxtLink to="/"> 
-          <img class="w-40" src="/public/b02fd6101114e70f10a84af317d821ca.png" alt="logo" />
+      <div class="w-full lg:w-1/5">
+        <NuxtLink to="/">
+          <img
+            class="w-40 lg:w-40"
+            src="/public/b02fd6101114e70f10a84af317d821ca.png"
+            alt="logo"
+          />
         </NuxtLink>
       </div>
-      
-      <div class="w-full flex-col sm:w-2/6 mt-10">
+
+      <div class="w-full flex-col lg:mt-10 lg:w-2/6">
         <h1 class="text-3xl font-bold">MODz</h1>
         <div class="mb-2 mt-6 flex items-center">
           <svg
@@ -49,50 +56,38 @@
         </div>
       </div>
       <div
-        class="flex flex-col w-full items-start justify-start gap-3 font-semibold text-white sm:w-1/3 mt-10"
+        class="mt-10 hidden w-full flex-col items-start justify-start gap-3 font-semibold text-white lg:flex lg:w-1/3"
       >
         <h1 class="text-3xl font-bold">{{ $t("Menu") }}</h1>
         <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
+          class="hidden hover:text-primary-600 lg:block"
           to="#à propos"
           >{{ $t("About Us") }}</NuxtLink
         >
-        
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#nosservices"
-          >{{ $t("Our Services") }}</NuxtLink
-        >
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#télécharger"
-          >{{ $t("Download Our App") }}</NuxtLink
-        >
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#contact"
-          >{{ $t("Contact Us") }}</NuxtLink
-        >
+
+        <NuxtLink class="hover:text-primary-600" to="#nosservices">{{
+          $t("Our Services")
+        }}</NuxtLink>
+        <NuxtLink class="hover:text-primary-600" to="#télécharger">{{
+          $t("Download Our App")
+        }}</NuxtLink>
+        <NuxtLink class="hover:text-primary-600" to="#contact">{{
+          $t("Contact Us")
+        }}</NuxtLink>
       </div>
-      <div class="flex justify-start items-start w-1/3 gap-x-5 mt-10">
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#"
-          ><img class="w-10" src="/public/facebook.svg" alt="logo" /></NuxtLink
-        >
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#"
-          ><img class="w-10" src="/public/instagram.svg" alt="logo" /></NuxtLink
-        >
-        <NuxtLink
-          class="hidden hover:text-primary-600 sm:block"
-          to="#"
-          ><img class="w-10" src="/public/linkedin.svg" alt="logo" /></NuxtLink
-        >
+      <div class="mt-10 flex w-full items-start justify-start gap-x-5 lg:w-1/3">
+        <NuxtLink class="hover:text-primary-600" to="#"
+          ><img class="w-10" src="/public/facebook.svg" alt="logo"
+        /></NuxtLink>
+        <NuxtLink class="hover:text-primary-600" to="#"
+          ><img class="w-10" src="/public/instagram.svg" alt="logo"
+        /></NuxtLink>
+        <NuxtLink class="hover:text-primary-600" to="#"
+          ><img class="w-10" src="/public/linkedin.svg" alt="logo"
+        /></NuxtLink>
       </div>
     </div>
-    <div class="text-center text-secondary-400 mt-12">
+    <div class="mt-12 text-center text-secondary-400">
       © 2024 Modz. All rights reserved.
     </div>
   </div>
