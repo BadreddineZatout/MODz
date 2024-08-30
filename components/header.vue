@@ -1,21 +1,21 @@
 <template>
-  <div class="flex w-full items-center justify-start bg-secondary-950 lg:px-10">
-    <NuxtLink to="/" class="hidden lg:block w-fit">
-      <img class="w-20 ltr:mr-10 rtl:ml-10" src="public/b02fd6101114e70f10a84af317d821ca.png" alt="logo" />
+  <div class="flex w-full items-center justify-start bg-secondary-950 lg:px-10 h-20 overflow-y-hidden">
+    <NuxtLink to="/" class="hidden lg:block w-fit mx-10">
+      <img class="w-40" src="public/full-logo.png" alt="logo" />
     </NuxtLink>
     <div
-      class="flex flex-wrap lg:flex-nowrap py-5 px-2 lg:py-0 lg:px-0 w-full items-center justify-between lg:justify-start gap-4 lg:gap-10 font-semibold text-white"
+      class="flex flex-wrap lg:flex-nowrap py-5 px-2 lg:py-0 lg:px-0 w-full items-center justify-between lg:justify-start gap-4 lg:gap-10 text-white text-2xl font-bold"
     >
-      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#à propos">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600 ml-20" to="#à propos">{{
         $t("About Us")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#Nos services">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#Nos services">{{
         $t("Our Services")
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#télecharger">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600" to="#télecharger">{{
         $t("Download Our App") 
       }}</NuxtLink>
-      <NuxtLink class="hidden lg:block hover:text-primary-600 underline" to="#contact">{{
+      <NuxtLink class="hidden lg:block hover:text-primary-600 mr-20" to="#contact">{{
         $t("Contact")
       }}</NuxtLink>
       

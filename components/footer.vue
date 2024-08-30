@@ -3,7 +3,7 @@
     <div class="flex flex-col justify-around sm:flex-row">
       <div class="w-1/5">
         <NuxtLink to="/"> 
-          <img src="/public/b02fd6101114e70f10a84af317d821ca.png" alt="logo" />
+          <img class="w-40" src="/public/b02fd6101114e70f10a84af317d821ca.png" alt="logo" />
         </NuxtLink>
       </div>
       
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div
-        class="flex flex-col w-full items-start justify-start gap-3 font-semibold text-white sm:w-1/2 mt-10"
+        class="flex flex-col w-full items-start justify-start gap-3 font-semibold text-white sm:w-1/3 mt-10"
       >
         <h1 class="text-3xl font-bold">{{ $t("Menu") }}</h1>
         <NuxtLink
@@ -73,38 +73,23 @@
           to="#contact"
           >{{ $t("Contact Us") }}</NuxtLink
         >
-        
       </div>
-      <div class="mt-10">
-        <h1 class="text-3xl font-bold">{{ $t("Download Our App") }}</h1>
-        <p class="mt-5 w-2/3">
-          {{
-            $t(
-              "Experience the convenience of Modz today. Download our app and connect with trusted construction professionals in just a few taps."
-            )
-          }}
-        </p>
-        <div
-          class="text-white text-xl font-bold flex items-center gap-1 mt-5 hover:text-primary-600"
+      <div class="flex justify-start items-start w-1/3 gap-x-5 mt-10">
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#"
+          ><img class="w-10" src="/public/facebook.svg" alt="logo" /></NuxtLink
         >
-          <NuxtLink class="" to="#">{{ $t("Get The App") }}</NuxtLink>
-          <svg
-            class="w-5"
-            data-slot="icon"
-            aria-hidden="true"
-            fill="none"
-            stroke-width="3.0"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>
-          </svg>
-        </div>
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#"
+          ><img class="w-10" src="/public/instagram.svg" alt="logo" /></NuxtLink
+        >
+        <NuxtLink
+          class="hidden hover:text-primary-600 sm:block"
+          to="#"
+          ><img class="w-10" src="/public/linkedin.svg" alt="logo" /></NuxtLink
+        >
       </div>
     </div>
     <div class="text-center text-secondary-400 mt-12">
