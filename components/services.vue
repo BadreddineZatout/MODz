@@ -1,27 +1,25 @@
 <template>
   <div id="services" class="my-20">
-    <div class="relative h-fit w-full overflow-hidden lg:h-96">
+    <div class="relative h-fit w-full overflow-hidden md:h-64 lg:h-96">
       <img
         src="/423d560003b308aa94f85e123dab942f.jpg"
         alt=""
-        class="lg:-translate-y-48"
+        class="md:-translate-y-28 lg:-translate-y-48"
       />
       <div
         class="absolute left-0 top-0 h-96 w-screen bg-[#1D6E5C] opacity-40"
       ></div>
       <h1
-        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] lg:left-[30%] lg:text-8xl"
-        style="text-shadow: 2px 3px gray"
+        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[30%] lg:text-8xl"
       >
         {{ $t("Our Services") }}
       </h1>
     </div>
     <div class="mt-20 space-y-10 px-5 lg:mt-40 lg:space-y-36 lg:px-36">
-      <div class="mt-15 flex flex-wrap items-start lg:flex-nowrap">
+      <div class="mt-15 flex flex-wrap items-center gap-x-3 lg:gap-x-0 lg:items-start md:flex-nowrap">
         <div class="w-full space-y-2 lg:w-1/2 lg:space-y-5">
           <h1
             class="mx-auto text-4xl text-[#1D6E5C] lg:w-1/2 lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
           >
             {{ $t("Regular service") }}
           </h1>
@@ -62,11 +60,10 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col justify-between lg:flex-row">
+      <div class="flex flex-col justify-between md:flex-row">
         <div class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20">
           <h1
             class="text-4xl text-[#1D6E5C] lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
           >
             {{ $t("Repair") }}
           </h1>
@@ -92,7 +89,7 @@
         </div>
       </div>
       <div
-        class="mt-15 flex flex-col-reverse items-start justify-between lg:flex-row"
+        class="mt-15 flex flex-col-reverse items-center gap-x-3 lg:gap-x-0 justify-between md:flex-row"
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <img
@@ -109,7 +106,6 @@
         <div class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20">
           <h1
             class="text-4xl text-[#1D6E5C] lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
           >
             {{ $t("Emergency Repair") }}
           </h1>
@@ -123,17 +119,16 @@
         </div>
       </div>
       <div
-        class="mt-15 flex flex-col items-start justify-between lg:flex-row lg:gap-x-32"
+        class="mt-15 flex flex-col items-center gap-x-3 justify-between md:flex-row lg:gap-x-32"
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <h1
             class="w-full text-4xl text-[#1D6E5C] lg:mb-20 lg:w-1/2 lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
           >
             {{ $t("Consultation") }}
           </h1>
           <img
-            class="hidden lg:block lg:h-[430px]"
+            class="lg:h-[430px]"
             src="/7218b74c0980a8fcf22d3d317d9209e9.jpg"
             alt=""
           />
@@ -154,18 +149,12 @@
           <p class="text-2xl lg:mt-20">
             {{ $t("Receive expert advice with our consultation service.") }}
           </p>
-          <img
-            class="lg:hidden lg:h-[430px]"
-            src="/7218b74c0980a8fcf22d3d317d9209e9.jpg"
-            alt=""
-          />
         </div>
       </div>
-      <div class="flex flex-col justify-between lg:flex-row">
+      <div class="flex flex-col justify-between md:flex-row">
         <div class="flex w-full flex-col justify-center lg:w-1/4 lg:gap-y-20">
           <h1
             class="text-4xl text-[#1D6E5C] lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
           >
             {{ $t("Building site") }}
           </h1>
