@@ -9,7 +9,7 @@
       class="flex w-full flex-wrap items-center justify-between gap-4 px-2 py-5 text-2xl font-bold text-white lg:flex-nowrap lg:justify-start lg:gap-10 lg:px-0 lg:py-0"
     >
       <NuxtLink
-        class="ml-20 hidden hover:text-[#1D6E5C] lg:block"
+        class="ltr:ml-20 rtl:mr-72 hidden hover:text-[#1D6E5C] lg:block"
         to="#about-us"
         >{{ $t("About Us") }}</NuxtLink
       >
@@ -20,9 +20,9 @@
         $t("Download Our App")
       }}</NuxtLink>
       <NuxtLink
-        class="mr-20 hidden hover:text-[#1D6E5C] lg:block"
+        class="ltr:mr-20 rtl:ml-72 hidden hover:text-[#1D6E5C] lg:block"
         to="#contact"
-        >{{ $t("Contact") }}</NuxtLink
+        >{{ $t("Contact Us") }}</NuxtLink
       >
       <UDropdown
         class="ml-5 lg:hidden"
@@ -104,7 +104,7 @@ const nav_items = [
       path: "#download",
     },
     {
-      label: t("Contact"),
+      label: t("Contact Us"),
       path: "#contact",
     },
   ],

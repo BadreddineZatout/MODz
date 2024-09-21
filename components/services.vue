@@ -10,7 +10,7 @@
         class="absolute left-0 top-0 h-96 w-screen bg-[#1D6E5C] opacity-40"
       ></div>
       <h1
-        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[30%] lg:text-8xl"
+        class="absolute left-1/4 top-1/3 rtl:right-[38%] text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[30%] lg:text-8xl rtl:md:text-6xl rtl:md:right-[38%] rtl:lg:right-[45%]"
       >
         {{ $t("Our Services") }}
       </h1>

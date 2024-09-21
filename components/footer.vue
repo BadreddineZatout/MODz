@@ -14,7 +14,7 @@
         </NuxtLink>
       </div>
 
-      <div class="w-full flex-col lg:mt-10 lg:w-2/6">
+      <div class="w-full mt-10 flex-col lg:mt-10 lg:w-2/6">
         <h1 class="text-3xl font-bold">MODz</h1>
         <div class="mb-2 mt-6 flex items-center">
           <svg
@@ -88,7 +88,7 @@
       </div>
     </div>
     <div class="mt-12 text-center text-secondary-400">
-      © 2024 Modz. All rights reserved.
+      © 2024 Modz. All rights reserved
     </div>
   </div>
 </template>
