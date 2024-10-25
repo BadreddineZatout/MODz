@@ -22,9 +22,9 @@
       <div
         class="mt-15 flex flex-wrap items-center gap-x-3 md:flex-nowrap lg:items-start 2xl:gap-x-0"
       >
-        <div class="w-full space-y-2 lg:w-1/2 lg:space-y-5">
+        <div class="w-full space-y-5 lg:w-1/2 lg:space-y-5">
           <h1
-            class="mb-10 text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 lg:text-7xl 2xl:text-7xl"
+            class="mb-5 text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 lg:text-7xl 2xl:text-7xl"
             style="
               text-shadow: 0.03291944em 0.09044541em 0.0625em
                 rgba(0, 0, 0, 0.42);
@@ -60,7 +60,7 @@
               />
             </div>
           </div>
-          <p class="px-1 text-2xl lg:px-10 2xl:px-20">
+          <p class="mt-5 px-1 text-2xl lg:mt-0 lg:px-10 2xl:px-20">
             {{
               $t(
                 "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness",
@@ -80,7 +80,7 @@
           >
             {{ $t("Repair") }}
           </h1>
-          <p class="text-2xl">
+          <p class="my-5 text-2xl lg:my-0">
             {{
               $t(
                 "Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.",
@@ -128,7 +128,7 @@
           >
             {{ $t("Emergency Repair") }}
           </h1>
-          <p class="text-2xl">
+          <p class="my-5 text-2xl lg:my-0">
             {{
               $t(
                 "For critical situations involving electrical and plumbing, our emergency repair service provides immediate assistance to prevent further damage and inconvenience.",
@@ -171,7 +171,7 @@
               alt=""
             />
           </div>
-          <p class="text-2xl lg:mt-20">
+          <p class="mt-5 text-2xl lg:mt-20">
             {{ $t("Receive expert advice with our consultation service.") }}
           </p>
         </div>
@@ -191,7 +191,7 @@
           >
             {{ $t("Building site") }}
           </h1>
-          <p class="text-2xl">
+          <p class="my-5 text-2xl lg:my-0">
             {{
               $t(
                 "From small renovations to large projects, our construction services meet various needs with quality craftsmanship and attention to detail.",
