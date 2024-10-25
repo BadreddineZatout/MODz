@@ -16,11 +16,11 @@
         <UForm
           :schema="schema"
           :state="conatctForm"
-          class="space-y-4"
+          class="space-y-4 text-black"
           @submit="onSubmit"
         >
           <UFormGroup :label="$t('Name')" name="name">
-            <UInput v-model="conatctForm.name" />
+            <UInput v-model="conatctForm.name" class="bg-white" />
           </UFormGroup>
           <UFormGroup :label="$t('Email')" name="email">
             <UInput v-model="conatctForm.email" />

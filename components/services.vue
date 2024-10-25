@@ -1,27 +1,34 @@
 <template>
   <div id="services" class="my-20">
-    <div class="relative h-fit w-full overflow-hidden lg:h-96">
+    <div class="relative h-fit w-full overflow-hidden md:h-64 lg:h-96">
       <img
         src="/423d560003b308aa94f85e123dab942f.jpg"
         alt=""
-        class="lg:-translate-y-48"
+        class="md:-translate-y-28 lg:-translate-y-48"
       />
       <div
         class="absolute left-0 top-0 h-96 w-screen bg-[#1D6E5C] opacity-40"
       ></div>
       <h1
-        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] lg:left-[30%] lg:text-8xl"
-        style="text-shadow: 2px 3px gray"
+        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[20%] lg:text-9xl 2xl:left-[28%] rtl:right-[38%] rtl:md:right-[38%] rtl:md:text-6xl rtl:lg:right-[35%] rtl:lg:text-9xl rtl:2xl:right-[38%]"
+        style="
+          text-shadow: 0.03291944em 0.09044541em 0.0625em rgba(0, 0, 0, 0.42);
+        "
       >
         {{ $t("Our Services") }}
       </h1>
     </div>
-    <div class="mt-20 space-y-10 px-5 lg:mt-40 lg:space-y-36 lg:px-36">
-      <div class="mt-15 flex flex-wrap items-start lg:flex-nowrap">
+    <div class="mt-20 space-y-10 px-5 lg:mt-40 lg:space-y-36 lg:px-20">
+      <div
+        class="mt-15 flex flex-wrap items-center gap-x-3 md:flex-nowrap lg:items-start 2xl:gap-x-0"
+      >
         <div class="w-full space-y-2 lg:w-1/2 lg:space-y-5">
           <h1
-            class="mx-auto text-4xl text-[#1D6E5C] lg:w-1/2 lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
+            class="mx-auto mb-10 text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 lg:text-7xl 2xl:text-7xl"
+            style="
+              text-shadow: 0.03291944em 0.09044541em 0.0625em
+                rgba(0, 0, 0, 0.42);
+            "
           >
             {{ $t("Regular service") }}
           </h1>
@@ -53,7 +60,7 @@
               />
             </div>
           </div>
-          <p class="px-1 text-2xl lg:px-20">
+          <p class="px-1 text-2xl lg:px-10 2xl:px-20">
             {{
               $t(
                 "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness",
@@ -62,11 +69,14 @@
           </p>
         </div>
       </div>
-      <div class="flex flex-col justify-between lg:flex-row">
+      <div class="flex flex-col justify-between md:flex-row">
         <div class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20">
           <h1
             class="text-4xl text-[#1D6E5C] lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
+            style="
+              text-shadow: 0.03291944em 0.09044541em 0.0625em
+                rgba(0, 0, 0, 0.42);
+            "
           >
             {{ $t("Repair") }}
           </h1>
@@ -92,7 +102,7 @@
         </div>
       </div>
       <div
-        class="mt-15 flex flex-col-reverse items-start justify-between lg:flex-row"
+        class="mt-15 flex flex-col-reverse items-start justify-between gap-x-3 md:flex-row lg:gap-x-0"
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <img
@@ -109,7 +119,12 @@
         <div class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20">
           <h1
             class="text-4xl text-[#1D6E5C] lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
+            style="
+              text-shadow:
+                1px 1px 0 #e1e6e4,
+                3px 3px 0 #e1e6e4,
+                4px 4px 0 #e1e6e4;
+            "
           >
             {{ $t("Emergency Repair") }}
           </h1>
@@ -123,17 +138,22 @@
         </div>
       </div>
       <div
-        class="mt-15 flex flex-col items-start justify-between lg:flex-row lg:gap-x-32"
+        class="mt-15 flex flex-col items-start justify-between gap-x-3 md:flex-row lg:gap-x-32"
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <h1
             class="w-full text-4xl text-[#1D6E5C] lg:mb-20 lg:w-1/2 lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
+            style="
+              text-shadow:
+                1px 1px 0 #e1e6e4,
+                3px 3px 0 #e1e6e4,
+                4px 4px 0 #e1e6e4;
+            "
           >
             {{ $t("Consultation") }}
           </h1>
           <img
-            class="hidden lg:block lg:h-[430px]"
+            class="lg:h-[430px]"
             src="/7218b74c0980a8fcf22d3d317d9209e9.jpg"
             alt=""
           />
@@ -141,12 +161,12 @@
         <div class="flex w-full flex-col items-center justify-center lg:w-1/2">
           <div class="item-center flex gap-x-5">
             <img
-              class="hidden h-[550] w-[220px] object-cover lg:block"
+              class="hidden h-[400px] w-[220px] object-cover lg:block"
               src="/3c60aa465731b6213560888ad82e8e9b.png"
               alt=""
             />
             <img
-              class="hidden h-[550] w-[220px] object-cover lg:block"
+              class="hidden h-[400px] w-[220px] object-cover lg:block"
               src="/0a5fcd07e54cbd5f5bec437dee505c10.jpg"
               alt=""
             />
@@ -154,18 +174,20 @@
           <p class="text-2xl lg:mt-20">
             {{ $t("Receive expert advice with our consultation service.") }}
           </p>
-          <img
-            class="lg:hidden lg:h-[430px]"
-            src="/7218b74c0980a8fcf22d3d317d9209e9.jpg"
-            alt=""
-          />
         </div>
       </div>
-      <div class="flex flex-col justify-between lg:flex-row">
-        <div class="flex w-full flex-col justify-center lg:w-1/4 lg:gap-y-20">
+      <div class="flex flex-col justify-between md:flex-row">
+        <div
+          class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20 2xl:w-1/4"
+        >
           <h1
             class="text-4xl text-[#1D6E5C] lg:text-7xl"
-            style="text-shadow: 2px 3px #d9dbda"
+            style="
+              text-shadow:
+                1px 1px 0 #e1e6e4,
+                3px 3px 0 #e1e6e4,
+                4px 4px 0 #e1e6e4;
+            "
           >
             {{ $t("Building site") }}
           </h1>
