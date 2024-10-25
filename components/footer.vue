@@ -14,7 +14,7 @@
         </NuxtLink>
       </div>
 
-      <div class="w-full mt-10 flex-col lg:mt-10 lg:w-2/6">
+      <div class="mt-10 w-full flex-col lg:mt-10 lg:w-2/6">
         <h1 class="text-3xl font-bold">MODz</h1>
         <div class="mb-2 mt-6 flex items-center">
           <svg
@@ -31,8 +31,8 @@
               clip-rule="evenodd"
             />
           </svg>
-          <a href="tel:++213 557 45 76 02" class="ml-2 font-semibold"
-            >+213 557 45 76 023</a
+          <a href="tel:++213 557 45 76 02" class="ml-2 font-semibold rtl:mr-2"
+            >0557457602</a
           >
         </div>
         <div class="mb-2 flex items-center">
@@ -52,7 +52,7 @@
               stroke-linejoin="round"
             ></path>
           </svg>
-          <p class="ml-2 font-semibold">contact@mo-dz.com</p>
+          <p class="ml-2 font-semibold rtl:mr-2">contact@mo-dz.com</p>
         </div>
       </div>
       <div

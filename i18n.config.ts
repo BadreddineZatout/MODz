@@ -15,13 +15,13 @@ export default defineI18nConfig(() => ({
       "Modz is revolutionizing the way you connect with construction services. Our mission is to provide a user-friendly platform that ensures efficient project management through trusted professionals":
         "MOdz révolutionne la façon dont vous vous connectez avec le service de construction. Notre mission est de fournir une plateforme conviviale qui assure une gestion de projet efficace grâce à des professionnels de confiance",
       "Our Services": "Nos services",
-      Repair: "réparation",
+      Repair: "Réparation",
       "Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.":
         "Répondant aux problèmes ​d'électricité, de plomberie, de ​peinture et de construction, ​notre service de réparation offre ​des solutions rapides pour ​maintenir vos espaces ​fonctionnels et sûrs.",
       "Regular service": "service ​régulier",
       "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness":
         "Électricité, plomberie, peinture et construction, ​notre service régulier répond à vos besoins de ​maintenance avec professionnalisme et ​réactivité",
-      "Emergency Repair": "Réparation ​D'urgente",
+      "Emergency Repair": "Réparation ​D'urgence",
       "For critical situations involving electrical and plumbing, our emergency repair service provides immediate assistance to prevent further damage and inconvenience.":
         "Pour les situations critiques ​impliquant l'électricité et la ​plomberie, notre service de ​réparation urgente fournit une ​assistance immédiate pour prévenir ​d'autres dommages et ​désagréments.",
       Consultation: "Consultation",
@@ -119,8 +119,9 @@ export default defineI18nConfig(() => ({
       "Contact Us": "اتصل بنا",
       Download: "حمّل التطبيق الآن",
       "Download our app": "حمّل تطبيقنا الآن",
-      "Experience the convenience of Modz": "اكتشف بساطة Modz. قم بتحميل تطبيقنا للتواصل بسرعة مع المحترفين",
-      "get the app": "احصل على التطبيق"
+      "Experience the convenience of Modz":
+        "اكتشف بساطة Modz. قم بتحميل تطبيقنا للتواصل بسرعة مع المحترفين",
+      "get the app": "احصل على التطبيق",
     },
   },
 }));
