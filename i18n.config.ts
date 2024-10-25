@@ -42,6 +42,7 @@ export default defineI18nConfig(() => ({
       Contact: "Contact",
       "Mobile App": "Application mobile",
       Download: "Téléchargez maintenant",
+      "Download Our App": "Téléchargez Notre Application",
       "Download our app": "Téléchargez Notre Application",
       "get the app": "Obtenez l'application",
       "Experience the convenience of Modz":

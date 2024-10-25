@@ -10,7 +10,7 @@
         class="absolute left-0 top-0 h-96 w-screen bg-[#1D6E5C] opacity-40"
       ></div>
       <h1
-        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[20%] lg:text-9xl 2xl:left-[28%] rtl:right-[38%] rtl:md:right-[38%] rtl:md:text-6xl rtl:lg:right-[35%] rtl:lg:text-9xl rtl:2xl:right-[38%]"
+        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[20%] lg:text-9xl 2xl:left-[25%] rtl:right-[38%] rtl:md:right-[38%] rtl:md:text-6xl rtl:lg:right-[35%] rtl:lg:text-9xl rtl:2xl:right-[38%]"
         style="
           text-shadow: 0.03291944em 0.09044541em 0.0625em rgba(0, 0, 0, 0.42);
         "
@@ -24,7 +24,7 @@
       >
         <div class="w-full space-y-2 lg:w-1/2 lg:space-y-5">
           <h1
-            class="mx-auto mb-10 text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 lg:text-7xl 2xl:text-7xl"
+            class="mb-10 text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 lg:text-7xl 2xl:text-7xl"
             style="
               text-shadow: 0.03291944em 0.09044541em 0.0625em
                 rgba(0, 0, 0, 0.42);
