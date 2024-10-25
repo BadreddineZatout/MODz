@@ -1,7 +1,7 @@
 <template>
   <div
     id="download"
-    class="relative my-20 overflow-hidden bg-gray-100 px-5 py-20 lg:h-[800px] lg:px-20 2xl:px-32 rtl:text-right"
+    class="relative my-20 overflow-hidden bg-gray-100 px-5 py-10 pb-20 lg:h-[800px] lg:px-20 2xl:px-32 rtl:text-right"
     style="background-image: url(&quot;/Sprinkle.svg&quot;)"
   >
     <h1
@@ -21,7 +21,7 @@
       {{ $t("Experience the convenience of Modz") }}
     </div>
     <NuxtLink
-      class="absolute bottom-2 left-[22%] z-20 w-fit rounded-3xl bg-gradient-to-r from-[#1D6E5C] to-[#43debc] px-3 py-2 text-2xl text-white md:left-[30%] md:text-3xl lg:bottom-20 lg:left-20 lg:px-8 lg:py-5 lg:text-4xl 2xl:left-40 rtl:right-[22%] rtl:md:right-[30%] rtl:lg:right-40"
+      class="absolute bottom-2 left-[16%] z-20 w-fit rounded-3xl bg-gradient-to-r from-[#1D6E5C] to-[#43debc] px-3 py-2 text-2xl text-white md:left-[30%] md:text-3xl lg:bottom-20 lg:left-20 lg:px-8 lg:py-5 lg:text-4xl 2xl:left-40 rtl:right-[22%] rtl:md:right-[30%] rtl:lg:right-40"
       to="#"
     >
       {{ $t("get the app") }}
