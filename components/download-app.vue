@@ -27,7 +27,7 @@
       {{ $t("get the app") }}
     </NuxtLink>
     <img
-      class="absolute -bottom-20 right-16 z-0 hidden h-[800px] lg:block rtl:hidden"
+      class="absolute -bottom-20 right-0 xl:right-16 z-0 hidden h-[800px] lg:block rtl:hidden"
       src="/8327ae46626dd9bfd64305c5ebcabec5.png"
       alt=""
     />

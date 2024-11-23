@@ -40,6 +40,11 @@ module.exports = {
       animation: {
         bounce: "bounce 3s infinite",
       },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        bogart: ['Bogart', 'serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],

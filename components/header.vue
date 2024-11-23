@@ -6,7 +6,7 @@
       <img class="w-40" src="public/full-logo.png" alt="logo" />
     </NuxtLink>
     <div
-      class="hidden w-fit items-center justify-between gap-x-5 px-2 py-5 text-lg font-bold text-white lg:flex lg:gap-x-20 2xl:text-2xl"
+      class="hidden w-fit items-center justify-between gap-x-5 px-2 py-5 text-lg font-bold text-white lg:flex lg:gap-x-5 xl:gap-x-20 2xl:text-2xl"
     >
       <NuxtLink class="hidden hover:text-[#1D6E5C] lg:block" to="#about-us">{{
         $t("About Us")

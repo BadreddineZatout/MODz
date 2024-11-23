@@ -10,7 +10,7 @@
         class="absolute left-0 top-0 h-96 w-screen bg-[#1D6E5C] opacity-40"
       ></div>
       <h1
-        class="absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[38%] lg:left-[20%] lg:text-9xl 2xl:left-[25%] rtl:right-[38%] rtl:md:right-[38%] rtl:md:text-6xl rtl:lg:right-[35%] rtl:lg:text-9xl rtl:2xl:right-[38%]"
+        class="font-poppins absolute left-1/4 top-1/3 text-4xl font-bold text-[#f9faf9] md:left-[28%] lg:left-[20%] md:text-7xl lg:text-8xl 2xl:text-9xl xl:left-[30%] 2xl:left-[25%] rtl:right-[38%] rtl:md:right-[38%] rtl:md:text-6xl rtl:lg:right-[35%] rtl:lg:text-9xl rtl:2xl:right-[38%]"
         style="
           text-shadow: 0.03291944em 0.09044541em 0.0625em rgba(0, 0, 0, 0.42);
         "
@@ -24,7 +24,7 @@
       >
         <div class="w-full space-y-5 lg:w-1/2 lg:space-y-5">
           <h1
-            class="mb-5 text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 lg:text-7xl 2xl:text-7xl"
+            class="mb-5 font-poppins text-4xl leading-tight text-[#1D6E5C] lg:w-1/2 md:text-5xl xl:text-7xl"
             style="
               text-shadow: 0.03291944em 0.09044541em 0.0625em
                 rgba(0, 0, 0, 0.42);
@@ -38,29 +38,29 @@
             alt=""
           />
         </div>
-        <div class="flex w-full flex-col justify-center lg:w-2/3">
+        <div class="font-montserrat flex w-full flex-col justify-center lg:w-2/3">
           <div class="item-center hidden lg:flex">
-            <div class="h-[500px] w-[350px] overflow-hidden">
+            <div class="h-fit w-[350px] overflow-hidden">
               <img
                 class="-translate-x-5 object-cover"
                 src="/152f760f5322e5b6b8b5e0dc99c3af1f.jpg"
                 alt=""
               />
             </div>
-            <div class="space-y-8">
+            <div class="space-y-2">
               <img
-                class="h-[200px] w-[500px] object-cover"
+                class="h-[150px] xl:h-[230px] w-[500px] object-cover"
                 src="/46041f59fb8743308017c0b8b1b2e5b8.jpg"
                 alt=""
               />
               <img
-                class="h-[200px] w-[500px] object-cover"
+                class="h-[150px] xl:h-[230px] w-[500px] object-cover"
                 src="/6f1148f049f8b34bbf1bb0a2c8cf266b.jpg"
                 alt=""
               />
             </div>
           </div>
-          <p class="mt-5 px-1 text-2xl lg:mt-0 lg:px-10 2xl:px-20">
+          <p class="mt-5 px-1 text-xl xl:text-2xl md:mt-10 xl:mt-5 2xl:px-20">
             {{
               $t(
                 "Electricity, plumbing, painting and construction, our regular service meets your maintenance needs with professionalism and responsiveness",
@@ -70,9 +70,9 @@
         </div>
       </div>
       <div class="flex flex-col justify-between md:flex-row">
-        <div class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20">
+        <div class="flex w-full flex-col justify-center lg:w-2/5 lg:gap-y-20">
           <h1
-            class="text-4xl text-[#1D6E5C] lg:text-7xl"
+            class="text-4xl font-poppins text-[#1D6E5C] md:text-5xl xl:text-7xl"
             style="
               text-shadow: 0.03291944em 0.09044541em 0.0625em
                 rgba(0, 0, 0, 0.42);
@@ -80,7 +80,7 @@
           >
             {{ $t("Repair") }}
           </h1>
-          <p class="my-5 text-2xl lg:my-0">
+          <p class="my-5 font-montserrat text-xl xl:text-2xl lg:my-0">
             {{
               $t(
                 "Addressing electrical, plumbing, painting, and construction issues, our repair service offers quick solutions to keep your spaces functional and safe.",
@@ -116,9 +116,9 @@
             alt=""
           />
         </div>
-        <div class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20">
+        <div class="flex w-full flex-col justify-center lg:w-2/5 xl:w-1/2 lg:gap-y-20">
           <h1
-            class="text-4xl text-[#1D6E5C] lg:text-7xl"
+            class="text-4xl font-poppins text-[#1D6E5C] md:text-5xl xl:text-7xl"
             style="
               text-shadow:
                 1px 1px 0 #e1e6e4,
@@ -128,7 +128,7 @@
           >
             {{ $t("Emergency Repair") }}
           </h1>
-          <p class="my-5 text-2xl lg:my-0">
+          <p class="my-5 font-montserrat text-xl xl:text-2xl lg:my-0">
             {{
               $t(
                 "For critical situations involving electrical and plumbing, our emergency repair service provides immediate assistance to prevent further damage and inconvenience.",
@@ -138,11 +138,11 @@
         </div>
       </div>
       <div
-        class="mt-15 flex flex-col items-start justify-between gap-x-3 md:flex-row lg:gap-x-32"
+        class="mt-15 flex flex-col items-start justify-between gap-x-3 md:flex-row xl:gap-x-32"
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <h1
-            class="w-full text-4xl text-[#1D6E5C] lg:mb-20 lg:w-1/2 lg:text-7xl"
+            class="w-full font-poppins text-4xl text-[#1D6E5C] lg:mb-20 lg:w-1/2 md:text-5xl xl:text-7xl"
             style="
               text-shadow:
                 1px 1px 0 #e1e6e4,
@@ -159,7 +159,7 @@
           />
         </div>
         <div class="flex w-full flex-col items-center justify-center lg:w-1/2">
-          <div class="item-center flex gap-x-5">
+          <div class="flex item-center  gap-x-5">
             <img
               class="hidden h-[400px] w-[220px] object-cover lg:block"
               src="/3c60aa465731b6213560888ad82e8e9b.png"
@@ -171,7 +171,7 @@
               alt=""
             />
           </div>
-          <p class="mt-5 text-2xl lg:mt-20">
+          <p class="mt-5 font-montserrat text-xl xl:text-2xl lg:mt-20">
             {{ $t("Receive expert advice with our consultation service.") }}
           </p>
         </div>
@@ -181,7 +181,7 @@
           class="flex w-full flex-col justify-center lg:w-1/3 lg:gap-y-20 2xl:w-1/4"
         >
           <h1
-            class="text-4xl text-[#1D6E5C] lg:text-7xl"
+            class="text-4xl font-poppins text-[#1D6E5C] md:text-5xl xl:text-7xl"
             style="
               text-shadow:
                 1px 1px 0 #e1e6e4,
@@ -191,7 +191,7 @@
           >
             {{ $t("Building site") }}
           </h1>
-          <p class="my-5 text-2xl lg:my-0">
+          <p class="my-5 font-montserrat text-xl xl:text-2xl lg:my-0">
             {{
               $t(
                 "From small renovations to large projects, our construction services meet various needs with quality craftsmanship and attention to detail.",

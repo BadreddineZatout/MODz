@@ -4,7 +4,7 @@
     class="bg-secondary-950 px-5 pb-2 text-white lg:px-14 lg:pt-5"
   >
     <div class="flex flex-col justify-around sm:flex-row">
-      <div class="w-full lg:w-1/5">
+      <div class="w-full lg:w-1/5 hidden sm:block">
         <NuxtLink to="/">
           <img
             class="w-40 lg:w-40"
@@ -15,26 +15,7 @@
       </div>
 
       <div class="mt-10 w-full flex-col lg:mt-10 lg:w-2/6">
-        <h1 class="text-3xl font-bold">MODz</h1>
-        <div class="mb-2 mt-6 flex items-center">
-          <svg
-            class="w-5"
-            xmlns="http://www.w3.org/2000/svg"
-            width="32"
-            height="32"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill="currentColor"
-              fill-rule="evenodd"
-              d="m3.855 7.286l1.067-.534a1 1 0 0 0 .542-1.046l-.44-2.858A1 1 0 0 0 4.036 2H3a1 1 0 0 0-1 1v2c0 .709.082 1.4.238 2.062a9.01 9.01 0 0 0 6.7 6.7A9 9 0 0 0 11 14h2a1 1 0 0 0 1-1v-1.036a1 1 0 0 0-.848-.988l-2.858-.44a1 1 0 0 0-1.046.542l-.534 1.067a7.52 7.52 0 0 1-4.86-4.859"
-              clip-rule="evenodd"
-            />
-          </svg>
-          <a href="tel:++213 557 45 76 02" class="ml-2 font-semibold rtl:mr-2"
-            >0557457602</a
-          >
-        </div>
+        <h1 class="text-3xl font-bold mb-5">MODz</h1>
         <div class="mb-2 flex items-center">
           <svg
             class="w-5"
