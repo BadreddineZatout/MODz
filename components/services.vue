@@ -39,7 +39,7 @@
           />
         </div>
         <div class="font-montserrat flex w-full flex-col justify-center lg:w-2/3">
-          <div class="item-center hidden lg:flex">
+          <div class="item-center hidden rtl:gap-x-5 lg:flex">
             <div class="h-fit w-[350px] overflow-hidden">
               <img
                 class="-translate-x-5 object-cover"
@@ -47,7 +47,7 @@
                 alt=""
               />
             </div>
-            <div class="space-y-2">
+            <div class="space-y-8 rtl:space-y-5">
               <img
                 class="h-[150px] xl:h-[230px] w-[500px] object-cover"
                 src="/46041f59fb8743308017c0b8b1b2e5b8.jpg"
@@ -102,7 +102,7 @@
         </div>
       </div>
       <div
-        class="mt-15 flex flex-col-reverse items-start justify-between gap-x-3 md:flex-row lg:gap-x-0"
+        class="mt-15 flex flex-col-reverse items-center justify-between gap-x-3 md:flex-row lg:gap-x-0"
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <img

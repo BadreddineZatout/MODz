@@ -26,7 +26,7 @@
         class="w-full text-xl md:w-1/2 xl:w-3/5 lg:space-y-5"
       >
         <p
-          class="text-2xl font-bold font-bogart text-[#1D6E5C] md:text-3xl xl:text-5xl md:pr-32 xl:pr-32"
+          class="text-2xl font-bold font-bogart text-[#1D6E5C] md:text-3xl xl:text-5xl ltr:md:pr-32 ltr:xl:pr-32"
           style="
             text-shadow:
               1px 1px 0 #c1d9d3,

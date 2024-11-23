@@ -32,7 +32,7 @@
       alt=""
     />
     <img
-      class="absolute -bottom-20 left-16 z-0 hidden h-[800px] lg:block ltr:hidden"
+      class="absolute -bottom-20 left-0 xl:left-16 z-0 hidden h-[800px] lg:block ltr:hidden"
       src="/download-app-rtl.png"
       alt=""
     />

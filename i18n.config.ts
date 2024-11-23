@@ -114,7 +114,7 @@ export default defineI18nConfig(() => ({
       "Must be at least 9 characters": "يجب أن تتكون من 9 أحرف على الأقل",
       "Must be at most 10 characters": "يجب أن تتكون من 10 أحرف على الأكثر",
       "Transform your visions in": "حول رؤيتك في",
-      "We are your key to experts.": ".نحن مفتاحك للوصول إلى الخبراء",
+      "We are your key to experts.": "نحن مفتاحك للوصول إلى الخبراء",
       "Modz simplifies your access to trusted construction experts. We connect you with verified professionals for all your needs, from regular maintenance to urgent repairs, with reliable service every time.":
         "يسهل تطبيقنا وصولك إلى خبراء موثوقين في مجال البناء. نحن نوصلك بمحترفين موثوقين لجميع احتياجاتك، من الصيانة الدورية إلى الإصلاحات العاجلة، مع خدمة موثوقة في كل مرة",
       "Contact Us": "اتصل بنا",
