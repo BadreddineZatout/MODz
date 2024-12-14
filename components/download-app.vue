@@ -1,7 +1,7 @@
 <template>
   <div
     id="download"
-    class="relative my-20 overflow-hidden bg-gray-100 px-5 py-10 pb-20 lg:h-[800px] lg:px-20 2xl:px-32 rtl:text-right"
+    class="relative my-20 overflow-hidden bg-gray-100 px-5 py-10 pb-20 lg:h-[700px] rtl:lg:h-[650px] lg:px-20 2xl:px-32 rtl:text-right"
     style="background-image: url(&quot;/Sprinkle.svg&quot;)"
   >
     <h1
@@ -27,12 +27,12 @@
       {{ $t("get the app") }}
     </NuxtLink>
     <img
-      class="absolute -bottom-20 right-0 xl:right-16 z-0 hidden h-[800px] lg:block rtl:hidden"
+      class="absolute -bottom-20 right-0 xl:right-16 z-0 hidden lg:h-[750px] xl:h-[800px] lg:block rtl:hidden"
       src="/8327ae46626dd9bfd64305c5ebcabec5.png"
       alt=""
     />
     <img
-      class="absolute -bottom-20 left-0 xl:left-16 z-0 hidden h-[800px] lg:block ltr:hidden"
+      class="absolute -bottom-20 -left-10 xl:left-16 z-0 hidden lg:h-[750px] xl:h-[800px] lg:block ltr:hidden"
       src="/download-app-rtl.png"
       alt=""
     />

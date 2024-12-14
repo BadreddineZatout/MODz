@@ -5,9 +5,9 @@
     </h1>
     <div class="mt-10 flex items-center justify-between lg:px-20">
       <div class="hidden w-2/3 overflow-hidden rounded-xl lg:block">
-        <img class="rtl:hidden" src="/contact-us.png" alt="" />
+        <img class="rtl:hidden scale-125" src="/contact-us.png" alt="" />
         <img
-          class="-translate-x-16 ltr:hidden"
+          class="-translate-x-16 scale-125 ltr:hidden"
           src="/contact-us-rtl.png"
           alt=""
         />

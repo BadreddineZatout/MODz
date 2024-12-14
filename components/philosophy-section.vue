@@ -19,7 +19,7 @@
     <div
       class="mt-10 flex flex-col-reverse items-center justify-center gap-x-10 gap-y-5 md:flex-row"
     >
-      <div class="w-full overflow-hidden rounded-xl md:w-1/3 xl:w-1/3">
+      <div class="w-full md:w-1/3 xl:w-1/3">
         <img src="/philosophy-section.jpg" alt="" />
       </div>
       <div

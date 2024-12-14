@@ -30,7 +30,7 @@ export default defineI18nConfig(() => ({
       "Building site": "Chantier",
       "From small renovations to large projects, our construction services meet various needs with quality craftsmanship and attention to detail.":
         "Des rénovations petites aux ​grands projets, nos services de ​construction répondent à divers ​besoins avec un savoir-faire de ​qualité et une attention aux ​détails.",
-      "Contact Us": "Contactez-nous",
+      "Contact Us": "Contact",
       Name: "nom",
       Email: "messagerie électronique",
       phone: "téléphone",
@@ -42,7 +42,7 @@ export default defineI18nConfig(() => ({
       Contact: "Contact",
       "Mobile App": "Application mobile",
       Download: "Téléchargez maintenant",
-      "Download Our App": "Téléchargez Notre Application",
+      "Download Our App": "Télécharger",
       "Download our app": "Téléchargez Notre Application",
       "get the app": "Obtenez l'application",
       "Experience the convenience of Modz":

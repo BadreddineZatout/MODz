@@ -1,6 +1,6 @@
 <template>
   <div id="services" class="my-20">
-    <div class="relative h-fit w-full overflow-hidden md:h-64 lg:h-96">
+    <div class="relative h-fit w-full overflow-hidden md:h-64 lg:h-[96] xl:h-[375px]">
       <img
         src="/423d560003b308aa94f85e123dab942f.jpg"
         alt=""
@@ -32,29 +32,31 @@
           >
             {{ $t("Regular service") }}
           </h1>
-          <img
-            class="lg:h-[430px] lg:w-[500px]"
+          <div class="lg:w-[400px] xl:w-[535px] lg:h-[393px] overflow-hidden">
+            <img
+            class="w-full h-full"
             src="/9418d9ed799730053e6a8ea7dd72e3cf.jpg"
             alt=""
           />
+          </div>
         </div>
         <div class="font-montserrat flex w-full flex-col justify-center lg:w-2/3">
-          <div class="item-center hidden rtl:gap-x-5 lg:flex">
-            <div class="h-fit w-[350px] overflow-hidden">
+          <div class="item-center hidden gap-x-2 rtl:gap-x-5 lg:flex">
+            <div class="lg:h-[293px] lg:w-[170px] xl:h-[403px] xl:w-[210px] overflow-hidden">
               <img
-                class="-translate-x-5 object-cover"
+                class="lg:-translate-x-3 lg:scale-125 xl:-translate-x-10 xl:scale-150 h-full w-full object-cover"
                 src="/152f760f5322e5b6b8b5e0dc99c3af1f.jpg"
                 alt=""
               />
             </div>
-            <div class="space-y-8 rtl:space-y-5">
+            <div class="space-y-8 lg:space-y-3 xl:space-y-8 rtl:space-y-5">
               <img
-                class="h-[150px] xl:h-[230px] w-[500px] object-cover"
+                class="h-[150px] lg:h-[160px] xl:h-[210px] w-[500px] object-cover"
                 src="/46041f59fb8743308017c0b8b1b2e5b8.jpg"
                 alt=""
               />
               <img
-                class="h-[150px] xl:h-[230px] w-[500px] object-cover"
+                class="h-[150px] lg:h-[120px] xl:h-[160px] w-[500px] object-cover"
                 src="/6f1148f049f8b34bbf1bb0a2c8cf266b.jpg"
                 alt=""
               />
@@ -90,12 +92,12 @@
         </div>
         <div class="w-full space-y-5 lg:w-1/2">
           <img
-            class="hidden lg:block lg:h-[300px] lg:w-[500px]"
+            class="hidden lg:block lg:h-[215px] lg:w-[382px] xl:h-[286px] xl:w-[509px]"
             src="/4d181383ef4115818e1c5919c04b5f09.jpg"
             alt=""
           />
           <img
-            class="lg:h-[300px] lg:w-[500px]"
+            class="lg:h-[215px] lg:w-[382px] xl:h-[286px] xl:w-[509px]"
             src="/7a2043bfdac8e51b9f9a753dad93de6e.jpg"
             alt=""
           />
@@ -106,12 +108,12 @@
       >
         <div class="w-full space-y-5 lg:w-1/2">
           <img
-            class="hidden lg:block lg:h-[300px] lg:w-[500px]"
+            class="hidden lg:block lg:h-[183px] lg:w-[382px] xl:w-[510px] xl:h-[244px]"
             src="/514719d14a617f6ef2ad56f5de834d23.jpg"
             alt=""
           />
           <img
-            class="lg:h-[300px] lg:w-[500px]"
+            class="lg:h-[183px] lg:w-[382px] xl:w-[510px] xl:h-[244px]"
             src="/81b70b71a9fcf48c1e6e8cb76c27f3c9.jpg"
             alt=""
           />
@@ -120,10 +122,8 @@
           <h1
             class="text-4xl font-poppins text-[#1D6E5C] md:text-5xl xl:text-7xl"
             style="
-              text-shadow:
-                1px 1px 0 #e1e6e4,
-                3px 3px 0 #e1e6e4,
-                4px 4px 0 #e1e6e4;
+              text-shadow: 0.03291944em 0.09044541em 0.0625em
+                rgba(0, 0, 0, 0.42);
             "
           >
             {{ $t("Emergency Repair") }}
@@ -144,16 +144,14 @@
           <h1
             class="w-full font-poppins text-4xl text-[#1D6E5C] lg:mb-20 lg:w-1/2 md:text-5xl xl:text-7xl"
             style="
-              text-shadow:
-                1px 1px 0 #e1e6e4,
-                3px 3px 0 #e1e6e4,
-                4px 4px 0 #e1e6e4;
+              text-shadow: 0.03291944em 0.09044541em 0.0625em
+                rgba(0, 0, 0, 0.42);
             "
           >
             {{ $t("Consultation") }}
           </h1>
           <img
-            class="lg:h-[430px]"
+            class="lg:w-[400px] lg:h-[295px] xl:w-[533px] xl:h-[394px]"
             src="/7218b74c0980a8fcf22d3d317d9209e9.jpg"
             alt=""
           />
@@ -161,17 +159,17 @@
         <div class="flex w-full flex-col items-center justify-center lg:w-1/2">
           <div class="flex item-center  gap-x-5">
             <img
-              class="hidden h-[400px] w-[220px] object-cover lg:block"
+              class="hidden h-[295px] w-[162px] xl:h-[393px] xl:w-[216px] lg:block"
               src="/3c60aa465731b6213560888ad82e8e9b.png"
               alt=""
             />
             <img
-              class="hidden h-[400px] w-[220px] object-cover lg:block"
+              class="hidden h-[295px] w-[162px] xl:h-[393px] xl:w-[216px] lg:block"
               src="/0a5fcd07e54cbd5f5bec437dee505c10.jpg"
               alt=""
             />
           </div>
-          <p class="mt-5 font-montserrat text-xl xl:text-2xl lg:mt-20">
+          <p class="mt-5 font-montserrat text-xl xl:text-2xl lg:mt-10">
             {{ $t("Receive expert advice with our consultation service.") }}
           </p>
         </div>
@@ -183,10 +181,8 @@
           <h1
             class="text-4xl font-poppins text-[#1D6E5C] md:text-5xl xl:text-7xl"
             style="
-              text-shadow:
-                1px 1px 0 #e1e6e4,
-                3px 3px 0 #e1e6e4,
-                4px 4px 0 #e1e6e4;
+              text-shadow: 0.03291944em 0.09044541em 0.0625em
+                rgba(0, 0, 0, 0.42);
             "
           >
             {{ $t("Building site") }}
@@ -200,9 +196,9 @@
           </p>
         </div>
         <div class="w-full space-y-5 lg:w-1/2">
-          <img class="h-[300px] w-[500px]" src="/about-us-2.jpg" alt="" />
+          <img class="h-[205px] w-[366px] xl:h-[275px] xl:w-[488px]" src="/about-us-2.jpg" alt="" />
           <img
-            class="hidden h-[300px] w-[500px] lg:block"
+            class="hidden h-[205px] w-[366px] xl:h-[275px] xl:w-[488px] lg:block"
             src="/bcd25091758a4018b0baec5ed4fe5473.jpg"
             alt=""
           />
