@@ -42,7 +42,7 @@
         </div>
         <div class="font-montserrat flex w-full flex-col justify-center lg:w-2/3">
           <div class="item-center hidden gap-x-2 rtl:gap-x-5 lg:flex">
-            <div class="lg:h-[293px] lg:w-[170px] xl:h-[403px] xl:w-[210px] overflow-hidden">
+            <div class="lg:h-[335px] lg:w-[170px] xl:h-[403px] xl:w-[210px] overflow-hidden">
               <img
                 class="lg:-translate-x-3 lg:scale-125 xl:-translate-x-10 xl:scale-150 h-full w-full object-cover"
                 src="/152f760f5322e5b6b8b5e0dc99c3af1f.jpg"
@@ -56,7 +56,7 @@
                 alt=""
               />
               <img
-                class="h-[150px] lg:h-[120px] xl:h-[160px] w-[500px] object-cover"
+                class="h-[150px] lg:h-[160px] xl:h-[160px] w-[500px] object-cover"
                 src="/6f1148f049f8b34bbf1bb0a2c8cf266b.jpg"
                 alt=""
               />
